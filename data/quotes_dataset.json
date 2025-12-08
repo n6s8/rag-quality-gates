@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "quote": "The only thing we have to fear is fear itself.",
+    "author": "Franklin D. Roosevelt",
+    "era": "1933",
+    "topic": "Leadership, Courage",
+    "context": "From his first inaugural address during the Great Depression",
+    "source": "First Inaugural Address, March 4, 1933",
+    "tags": ["courage", "depression", "leadership", "politics"],
+    "language": "English"
+  },
+  {
+    "id": 2,
+    "quote": "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.",
+    "author": "Martin Luther King Jr.",
+    "era": "1963",
+    "topic": "Civil Rights, Equality",
+    "context": "From the 'I Have a Dream' speech during the March on Washington",
+    "source": "Lincoln Memorial, Washington D.C., August 28, 1963",
+    "tags": ["civil rights", "equality", "dream", "freedom"],
+    "language": "English"
+  },
+  {
+    "id": 3,
+    "quote": "That's one small step for man, one giant leap for mankind.",
+    "author": "Neil Armstrong",
+    "era": "1969",
+    "topic": "Exploration, Science",
+    "context": "While stepping onto the lunar surface during the Apollo 11 mission",
+    "source": "Lunar surface, July 20, 1969",
+    "tags": ["space", "moon", "exploration", "achievement"],
+    "language": "English"
+  },
+  {
+    "id": 4,
+    "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+    "author": "Nelson Mandela",
+    "era": "1994",
+    "topic": "Resilience, Perseverance",
+    "context": "From his autobiography 'Long Walk to Freedom'",
+    "source": "Long Walk to Freedom, 1994",
+    "tags": ["resilience", "perseverance", "glory", "struggle"],
+    "language": "English"
+  },
+  {
+    "id": 5,
+    "quote": "Be the change that you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "era": "1913",
+    "topic": "Activism, Personal Responsibility",
+    "context": "Often attributed to Gandhi, though exact source is debated",
+    "source": "Attributed to Gandhi",
+    "tags": ["change", "action", "responsibility", "philosophy"],
+    "language": "English"
+  },
+  {
+    "id": 6,
+    "quote": "Imagination is more important than knowledge.",
+    "author": "Albert Einstein",
+    "era": "1929",
+    "topic": "Creativity, Science",
+    "context": "From an interview reflecting on the role of creativity in scientific discovery",
+    "source": "Often attributed to a 1929 interview in The Saturday Evening Post",
+    "tags": ["imagination", "science", "creativity", "knowledge"],
+    "language": "English"
+  },
+  {
+    "id": 7,
+    "quote": "In the middle of difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "era": "20th Century",
+    "topic": "Resilience, Problem-Solving",
+    "context": "Attributed to Einstein in discussions about facing scientific and personal challenges",
+    "source": "Attributed saying, exact source debated",
+    "tags": ["difficulty", "opportunity", "resilience", "problems"],
+    "language": "English"
+  },
+  {
+    "id": 8,
+    "quote": "Government of the people, by the people, for the people, shall not perish from the earth.",
+    "author": "Abraham Lincoln",
+    "era": "1863",
+    "topic": "Democracy, Governance",
+    "context": "From the Gettysburg Address during the American Civil War",
+    "source": "Gettysburg Address, November 19, 1863",
+    "tags": ["democracy", "freedom", "civil war", "politics"],
+    "language": "English"
+  },
+  {
+    "id": 9,
+    "quote": "Those who deny freedom to others deserve it not for themselves.",
+    "author": "Abraham Lincoln",
+    "era": "1859",
+    "topic": "Freedom, Justice",
+    "context": "From a letter arguing against the expansion of slavery",
+    "source": "Letter to H.L. Pierce and others, April 6, 1859",
+    "tags": ["freedom", "justice", "slavery", "rights"],
+    "language": "English"
+  },
+  {
+    "id": 10,
+    "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "era": "20th Century",
+    "topic": "Perseverance, Leadership",
+    "context": "Widely attributed to Churchill, capturing his wartime leadership philosophy",
+    "source": "Attributed saying, exact source debated",
+    "tags": ["success", "failure", "courage", "leadership"],
+    "language": "English"
+  },
+  {
+    "id": 11,
+    "quote": "Never, never, never give up.",
+    "author": "Winston Churchill",
+    "era": "1941",
+    "topic": "Perseverance, War",
+    "context": "Paraphrase of his speech encouraging British resilience during World War II",
+    "source": "Speech at Harrow School, October 29, 1941",
+    "tags": ["perseverance", "war", "resilience", "motivation"],
+    "language": "English"
+  },
+  {
+    "id": 12,
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+    "era": "4th Century BCE",
+    "topic": "Ethics, Self-Improvement",
+    "context": "Paraphrase inspired by Aristotle's ideas on virtue and habit in his ethical works",
+    "source": "Paraphrased from 'Nicomachean Ethics'",
+    "tags": ["excellence", "habit", "virtue", "character"],
+    "language": "English"
+  },
+  {
+    "id": 13,
+    "quote": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius",
+    "era": "5th Century BCE",
+    "topic": "Perseverance, Personal Growth",
+    "context": "Attributed to Confucius in later compilations of his teachings",
+    "source": "Attributed saying from the Analects tradition",
+    "tags": ["perseverance", "progress", "growth", "discipline"],
+    "language": "English"
+  },
+  {
+    "id": 14,
+    "quote": "Nothing in life is to be feared, it is only to be understood.",
+    "author": "Marie Curie",
+    "era": "1903",
+    "topic": "Science, Curiosity",
+    "context": "Reflecting on scientific discovery and the unknown in an age of rapid advances",
+    "source": "Attributed to Curie in biographies and collected sayings",
+    "tags": ["science", "fear", "understanding", "curiosity"],
+    "language": "English"
+  },
+  {
+    "id": 15,
+    "quote": "Learning never exhausts the mind.",
+    "author": "Leonardo da Vinci",
+    "era": "15th Century",
+    "topic": "Learning, Creativity",
+    "context": "From his notebooks reflecting on curiosity and the pursuit of knowledge",
+    "source": "Leonardo's notebooks (attributed)",
+    "tags": ["learning", "creativity", "knowledge", "curiosity"],
+    "language": "English"
+  },
+  {
+    "id": 16,
+    "quote": "If I have seen further it is by standing on the shoulders of giants.",
+    "author": "Isaac Newton",
+    "era": "1675",
+    "topic": "Science, Collaboration",
+    "context": "From a letter acknowledging the work of earlier scientists",
+    "source": "Letter to Robert Hooke, February 5, 1675",
+    "tags": ["science", "humility", "collaboration", "discovery"],
+    "language": "English"
+  },
+  {
+    "id": 17,
+    "quote": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "author": "Thomas Edison",
+    "era": "1902",
+    "topic": "Work, Innovation",
+    "context": "Comment on the relationship between hard work and invention",
+    "source": "Interview in Harper's Monthly Magazine, 1902",
+    "tags": ["work", "innovation", "genius", "effort"],
+    "language": "English"
+  },
+  {
+    "id": 18,
+    "quote": "No one can make you feel inferior without your consent.",
+    "author": "Eleanor Roosevelt",
+    "era": "1940s",
+    "topic": "Self-Worth, Confidence",
+    "context": "From her reflections on personal dignity and human rights",
+    "source": "Often attributed to her 1940 book 'This Is My Story'",
+    "tags": ["confidence", "self-worth", "rights", "dignity"],
+    "language": "English"
+  },
+  {
+    "id": 19,
+    "quote": "In a gentle way, you can shake the world.",
+    "author": "Mahatma Gandhi",
+    "era": "20th Century",
+    "topic": "Nonviolence, Social Change",
+    "context": "Reflecting his philosophy of nonviolent resistance against injustice",
+    "source": "Attributed saying from speeches and writings",
+    "tags": ["nonviolence", "change", "justice", "activism"],
+    "language": "English"
+  },
+  {
+    "id": 20,
+    "quote": "It always seems impossible until it is done.",
+    "author": "Nelson Mandela",
+    "era": "1993",
+    "topic": "Hope, Perseverance",
+    "context": "Widely quoted reflection on the struggle against apartheid",
+    "source": "Attributed saying from speeches in the early 1990s",
+    "tags": ["hope", "perseverance", "struggle", "change"],
+    "language": "English"
+  }
+]

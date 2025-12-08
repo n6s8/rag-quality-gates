@@ -1,0 +1,182 @@
+{
+  "Franklin D. Roosevelt": {
+    "full_name": "Franklin Delano Roosevelt",
+    "lifespan": "1882–1945",
+    "occupation": "32nd President of the United States",
+    "era": "20th Century",
+    "notable_for": [
+      "New Deal",
+      "Leading the US through the Great Depression and World War II",
+      "Only U.S. president elected to four terms"
+    ],
+    "biography": "Franklin D. Roosevelt, commonly known as FDR, was an American politician who served as the 32nd president of the United States from 1933 until his death in 1945. He directed the federal government during most of the Great Depression, implementing the New Deal to provide relief, recovery, and reform, and he led the country during the majority of World War II."
+  },
+  "Martin Luther King Jr.": {
+    "full_name": "Martin Luther King Jr.",
+    "lifespan": "1929–1968",
+    "occupation": "Baptist minister, civil rights leader",
+    "era": "20th Century",
+    "notable_for": [
+      "Leadership in the American Civil Rights Movement",
+      "Advocacy of nonviolent resistance",
+      "Famous 'I Have a Dream' speech"
+    ],
+    "biography": "Martin Luther King Jr. was an American Baptist minister and activist who became the most visible leader in the civil rights movement from 1955 until his assassination in 1968. He promoted nonviolent civil disobedience to combat racial segregation and injustice, drawing inspiration from Christian teachings and the nonviolent philosophy of Mahatma Gandhi."
+  },
+  "Neil Armstrong": {
+    "full_name": "Neil Alden Armstrong",
+    "lifespan": "1930–2012",
+    "occupation": "Astronaut, aerospace engineer, test pilot",
+    "era": "20th Century",
+    "notable_for": [
+      "First human to walk on the Moon",
+      "Commander of Apollo 11",
+      "Work as an aerospace engineer and professor"
+    ],
+    "biography": "Neil Armstrong was an American astronaut and aerospace engineer who became the first person to walk on the Moon on July 20, 1969, during NASA's Apollo 11 mission. Before joining the space program, he served as a naval aviator and test pilot. After his historic moonwalk, Armstrong continued to contribute to aerospace research and education."
+  },
+  "Nelson Mandela": {
+    "full_name": "Nelson Rolihlahla Mandela",
+    "lifespan": "1918–2013",
+    "occupation": "Anti-apartheid revolutionary, politician, philanthropist",
+    "era": "20th–21st Century",
+    "notable_for": [
+      "Leading the struggle against apartheid in South Africa",
+      "First black president of South Africa",
+      "Nobel Peace Prize laureate (1993)"
+    ],
+    "biography": "Nelson Mandela was a South African anti-apartheid activist who spent 27 years in prison for his opposition to racial segregation. After his release, he played a key role in negotiating the end of apartheid and became South Africa's first black president in 1994. Mandela became a global symbol of reconciliation, justice, and forgiveness."
+  },
+  "Mahatma Gandhi": {
+    "full_name": "Mohandas Karamchand Gandhi",
+    "lifespan": "1869–1948",
+    "occupation": "Lawyer, anti-colonial nationalist, political ethicist",
+    "era": "19th–20th Century",
+    "notable_for": [
+      "Leading the Indian independence movement against British rule",
+      "Developing the philosophy of nonviolent resistance (Satyagraha)",
+      "Inspiring civil rights movements worldwide"
+    ],
+    "biography": "Mahatma Gandhi was an Indian lawyer and political leader who pioneered nonviolent resistance to oppose British colonial rule. Through mass civil disobedience campaigns, boycotts, and marches, he mobilized millions of Indians. His ideas influenced later civil rights movements, including those led by Martin Luther King Jr. and Nelson Mandela."
+  },
+  "Albert Einstein": {
+    "full_name": "Albert Einstein",
+    "lifespan": "1879–1955",
+    "occupation": "Theoretical physicist",
+    "era": "20th Century",
+    "notable_for": [
+      "Theory of relativity",
+      "Contributions to quantum mechanics",
+      "Nobel Prize in Physics (1921)"
+    ],
+    "biography": "Albert Einstein was a German-born theoretical physicist whose work revolutionized modern physics. His theory of relativity changed the understanding of space, time, and gravity, while his contributions to quantum theory helped shape atomic and subatomic physics. Beyond science, Einstein was known for his humanism and philosophical reflections on peace, education, and creativity."
+  },
+  "Abraham Lincoln": {
+    "full_name": "Abraham Lincoln",
+    "lifespan": "1809–1865",
+    "occupation": "16th President of the United States",
+    "era": "19th Century",
+    "notable_for": [
+      "Leading the US during the Civil War",
+      "Emancipation Proclamation",
+      "Defending the idea of government 'of the people, by the people, for the people'"
+    ],
+    "biography": "Abraham Lincoln was an American lawyer and statesman who served as the 16th president of the United States from 1861 until his assassination in 1865. He steered the country through the Civil War, preserved the Union, and worked to abolish slavery, issuing the Emancipation Proclamation and promoting the Thirteenth Amendment."
+  },
+  "Winston Churchill": {
+    "full_name": "Sir Winston Leonard Spencer Churchill",
+    "lifespan": "1874–1965",
+    "occupation": "British statesman, writer, orator",
+    "era": "20th Century",
+    "notable_for": [
+      "Prime Minister of the United Kingdom during World War II",
+      "Inspirational wartime speeches",
+      "Nobel Prize in Literature (1953)"
+    ],
+    "biography": "Winston Churchill was a British politician and writer best known for his leadership of the United Kingdom during World War II. His speeches and radio broadcasts helped sustain British morale during the darkest moments of the war. He later received the Nobel Prize in Literature for his historical writings and oratory."
+  },
+  "Aristotle": {
+    "full_name": "Aristotle",
+    "lifespan": "384–322 BCE",
+    "occupation": "Philosopher, polymath",
+    "era": "Classical Greece",
+    "notable_for": [
+      "Foundational works in logic, ethics, and metaphysics",
+      "Tutor to Alexander the Great",
+      "Influence on Western philosophy and science"
+    ],
+    "biography": "Aristotle was an ancient Greek philosopher and student of Plato who made enduring contributions to many fields, including logic, ethics, politics, biology, and metaphysics. His works shaped Western intellectual history for centuries and provided systematic frameworks for understanding knowledge, virtue, and the natural world."
+  },
+  "Confucius": {
+    "full_name": "Confucius (Kong Qiu)",
+    "lifespan": "551–479 BCE",
+    "occupation": "Philosopher, teacher, political adviser",
+    "era": "Spring and Autumn period of Chinese history",
+    "notable_for": [
+      "Developing Confucianism",
+      "Emphasis on morality, social harmony, and proper conduct",
+      "Profound influence on East Asian culture and ethics"
+    ],
+    "biography": "Confucius was a Chinese philosopher and teacher whose ideas centered on moral virtue, proper relationships, and social harmony. His teachings, later compiled in the Analects, became the foundation of Confucianism and deeply influenced Chinese and East Asian culture, education, and governance."
+  },
+  "Marie Curie": {
+    "full_name": "Maria Skłodowska-Curie",
+    "lifespan": "1867–1934",
+    "occupation": "Physicist, chemist",
+    "era": "19th–20th Century",
+    "notable_for": [
+      "Pioneering research on radioactivity",
+      "Discovery of polonium and radium",
+      "First person to win two Nobel Prizes in different sciences"
+    ],
+    "biography": "Marie Curie was a Polish-born physicist and chemist who conducted groundbreaking research on radioactivity. She discovered the elements polonium and radium, shared the 1903 Nobel Prize in Physics with Pierre Curie and Henri Becquerel, and later received the Nobel Prize in Chemistry in 1911. Her work laid the foundation for nuclear physics and medical radiology."
+  },
+  "Leonardo da Vinci": {
+    "full_name": "Leonardo di ser Piero da Vinci",
+    "lifespan": "1452–1519",
+    "occupation": "Artist, inventor, scientist, engineer",
+    "era": "Italian Renaissance",
+    "notable_for": [
+      "Masterpieces like the Mona Lisa and The Last Supper",
+      "Innovative anatomical and scientific studies",
+      "Designs for machines far ahead of his time"
+    ],
+    "biography": "Leonardo da Vinci was an Italian polymath whose interests spanned painting, anatomy, engineering, architecture, and science. Considered one of the greatest artists of all time, he also filled notebooks with observations and sketches exploring human anatomy, flight, mechanics, and nature."
+  },
+  "Isaac Newton": {
+    "full_name": "Sir Isaac Newton",
+    "lifespan": "1642–1727",
+    "occupation": "Physicist, mathematician, astronomer",
+    "era": "Scientific Revolution",
+    "notable_for": [
+      "Laws of motion and universal gravitation",
+      "Development of calculus (independently of Leibniz)",
+      "Foundational work in optics"
+    ],
+    "biography": "Isaac Newton was an English mathematician and physicist whose work laid the foundations for classical mechanics. His laws of motion and universal gravitation described the behavior of objects on Earth and in space. Newton also made major contributions to optics and mathematics, including early developments in calculus."
+  },
+  "Thomas Edison": {
+    "full_name": "Thomas Alva Edison",
+    "lifespan": "1847–1931",
+    "occupation": "Inventor, businessman",
+    "era": "19th–20th Century",
+    "notable_for": [
+      "Inventions such as the practical electric light bulb and phonograph",
+      "Founding industrial research laboratories",
+      "Holding over 1,000 patents"
+    ],
+    "biography": "Thomas Edison was an American inventor and entrepreneur renowned for developing practical electric lighting, sound recording, and motion picture technologies. He built one of the first industrial research labs and played a key role in shaping the modern technological and industrial landscape."
+  },
+  "Eleanor Roosevelt": {
+    "full_name": "Anna Eleanor Roosevelt",
+    "lifespan": "1884–1962",
+    "occupation": "First Lady of the United States, diplomat, activist",
+    "era": "20th Century",
+    "notable_for": [
+      "Advocacy for human rights and social justice",
+      "Role in drafting the Universal Declaration of Human Rights",
+      "Redefining the role of First Lady"
+    ],
+    "biography": "Eleanor Roosevelt was an American political figure, diplomat, and activist who transformed the role of First Lady by actively engaging in politics and social issues. After Franklin D. Roosevelt's death, she continued her work as a delegate to the United Nations, where she helped draft the Universal Declaration of Human Rights."
+  }
+}
