@@ -1,3 +1,15 @@
+=== HYPERLINK MATRIX ===
+╭─────────────────────────────────────────────────────────╮
+│  NODE 01: [SOURCE_REPOSITORY]                           │
+│  ├─ Protocol: HTTPS                                     │
+│  ├─ Address: github.com/n6s8/Full-RAG-Stack             │
+│  └─ Access: PUBLIC                                      │
+│                                                         │
+│  NODE 02: [DEMONSTRATION_FEED]                          │
+│  ├─ Protocol: HTTPS                                     │
+│  ├─ Address: youtu.be/Eawfe7b_0OE                       │
+│  └─ Access: PUBLIC                                      │
+╰─────────────────────────────────────────────────────────╯
 # 📜 Historical Quotes Explorer – RAG System
 
 A complete **Retrieval-Augmented Generation (RAG)** system for exploring historical quotes with AI-powered context and explanations.  
@@ -81,7 +93,7 @@ This project implements all required RAG components:
 8. **Video (1–3 minutes)**
     Link:
    ```text
-   [https://youtu.be/Eawfe7b_0OE]
+   https://youtu.be/Eawfe7b_0OE
 
 ## 🚀 Quick Start
 
