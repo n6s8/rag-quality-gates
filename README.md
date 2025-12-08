@@ -1,4 +1,3 @@
-[ CONNECTION ESTABLISHED ]
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 
       🛰️  REPOSITORY ORBIT: github.com/n6s8/Full-RAG-Stack
