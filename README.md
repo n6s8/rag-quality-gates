@@ -1,9 +1,12 @@
+[ CONNECTION ESTABLISHED ]
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+
       🛰️  REPOSITORY ORBIT: github.com/n6s8/Full-RAG-Stack
       📡 SIGNAL STRENGTH: ██████████ 100%
       
       🎬 TRANSMISSION FEED: youtu.be/Eawfe7b_0OE
       📶 BANDWIDTH: ██████████ 100%
+
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 # 📜 Historical Quotes Explorer – RAG System
