@@ -1,0 +1,78 @@
+[
+  {
+    "question": "What did Roosevelt say about fear?",
+    "expected_answer": "Roosevelt said 'The only thing we have to fear is fear itself' during his first inaugural address in 1933.",
+    "expected_quote_ids": [
+      1
+    ],
+    "expected_authors": [
+      "Franklin D. Roosevelt"
+    ],
+    "category": "exact_quote"
+  },
+  {
+    "question": "What did Martin Luther King Jr. dream about?",
+    "expected_answer": "He dreamed that his children would be judged by their character, not their skin color.",
+    "expected_quote_ids": [
+      2
+    ],
+    "expected_authors": [
+      "Martin Luther King Jr."
+    ],
+    "category": "exact_quote"
+  },
+  {
+    "question": "Who said 'Be the change you wish to see in the world'?",
+    "expected_answer": "Mahatma Gandhi",
+    "expected_quote_ids": [
+      5
+    ],
+    "expected_authors": [
+      "Mahatma Gandhi"
+    ],
+    "category": "author_identification"
+  },
+  {
+    "question": "What quotes are there about perseverance?",
+    "expected_answer": "Should include quotes about perseverance and resilience.",
+    "expected_quote_ids": [
+      4,
+      10,
+      11,
+      13,
+      20
+    ],
+    "expected_authors": [
+      "Nelson Mandela",
+      "Winston Churchill",
+      "Confucius"
+    ],
+    "category": "topic_search"
+  },
+  {
+    "question": "What did Einstein say about imagination?",
+    "expected_answer": "Einstein said 'Imagination is more important than knowledge.'",
+    "expected_quote_ids": [
+      6
+    ],
+    "expected_authors": [
+      "Albert Einstein"
+    ],
+    "category": "exact_quote"
+  },
+  {
+    "question": "What are some quotes about leadership?",
+    "expected_answer": "Should include quotes about leadership and governance.",
+    "expected_quote_ids": [
+      1,
+      8,
+      10
+    ],
+    "expected_authors": [
+      "Franklin D. Roosevelt",
+      "Abraham Lincoln",
+      "Winston Churchill"
+    ],
+    "category": "topic_search"
+  }
+]

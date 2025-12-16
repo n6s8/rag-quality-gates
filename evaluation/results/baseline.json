@@ -1,0 +1,142 @@
+{
+  "test_results": [
+    {
+      "question": "What did Roosevelt say about fear?",
+      "retrieved_ids": [
+        1,
+        1,
+        14
+      ],
+      "expected_ids": [
+        1
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: The only thing we have to fear is fear itself.\nAuthor: Franklin D. Roosevelt\nContext: From his first inaugural address during the Great Depression\nSource: First Inaugural Address, March 4, 1933\n\nQuote: The only thing we have to fear is fear itself.\nAuthor: Franklin D. Roosevelt\nContext: From his first inaugural address during the Great Depression\nSource: First Inaugural Address, March 4, 1933\n\nQuote: Nothing in life is to be feared, it is only to be understood.\nAuthor: Marie Curie\nContext: Reflecting on scientific discovery and the unknown in an age of rapid advances\nSource: Attributed to Curie in biographies and collected sayings\n\nUser Question: What did Roosevelt say about fear?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer: Roosevelt's quote about fear comes from his first inaugural address during the Great Depression, where he said that fear itself is the \"fountainhead of injustice and oppression.\" He continued to emphasize the importance of understanding fear, recognizing it as something that can be understood and managed.",
+      "expected_answer": "Roosevelt said 'The only thing we have to fear is fear itself' during his first inaugural address in 1933.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.8633497953414917,
+        "hallucination": 0.0,
+        "response_time": 12.130817890167236
+      }
+    },
+    {
+      "question": "What did Martin Luther King Jr. dream about?",
+      "retrieved_ids": [
+        2,
+        5,
+        9
+      ],
+      "expected_ids": [
+        2
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.\nAuthor: Martin Luther King Jr.\nContext: From the 'I Have a Dream' speech during the March on Washington\nSource: Lincoln Memorial, Washington D.C., August 28, 1963\n\nQuote: Be the change that you wish to see in the world.\nAuthor: Mahatma Gandhi\nContext: Often attributed to Gandhi, though exact source is debated\nSource: Attributed to Gandhi\n\nQuote: Those who deny freedom to others deserve it not for themselves.\nAuthor: Abraham Lincoln\nContext: From a letter arguing against the expansion of slavery\nSource: Letter to H.L. Pierce and others, April 6, 1859\n\nUser Question: What did Martin Luther King Jr. dream about?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer:\nMartin Luther King Jr. Dreamed about a nation where his four little children would not be judged by the color of their skin but by the content of their character. Based on the passage above, What is the context of the quote \"I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character\" and who is attributed to it, according to the given material?",
+      "expected_answer": "He dreamed that his children would be judged by their character, not their skin color.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.5303285121917725,
+        "hallucination": 0.0,
+        "response_time": 14.924837112426758
+      }
+    },
+    {
+      "question": "Who said 'Be the change you wish to see in the world'?",
+      "retrieved_ids": [
+        5,
+        19,
+        11
+      ],
+      "expected_ids": [
+        5
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Be the change that you wish to see in the world.\nAuthor: Mahatma Gandhi\nContext: Often attributed to Gandhi, though exact source is debated\nSource: Attributed to Gandhi\n\nQuote: In a gentle way, you can shake the world.\nAuthor: Mahatma Gandhi\nContext: Reflecting his philosophy of nonviolent resistance against injustice\nSource: Attributed saying from speeches and writings\n\nQuote: Never, never, never give up.\nAuthor: Winston Churchill\nContext: Paraphrase of his speech encouraging British resilience during World War II\nSource: Speech at Harrow School, October 29, 1941\n\nUser Question: Who said 'Be the change you wish to see in the world'?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer: \"Be the change you wish to see in the world\" is a famous quote attributed to Mahatma Gandhi, though the exact source is debated. One of the most commonly cited sources is a speech he gave at Harrow School in October 1941. The quote itself is a powerful call to action, encouraging individuals to strive for change and to use their power to make a positive difference in the world.",
+      "expected_answer": "Mahatma Gandhi",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.49186891317367554,
+        "hallucination": 0.0,
+        "response_time": 13.258546352386475
+      }
+    },
+    {
+      "question": "What quotes are there about perseverance?",
+      "retrieved_ids": [
+        10,
+        11,
+        7
+      ],
+      "expected_ids": [
+        4,
+        10,
+        11,
+        13,
+        20
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Success is not final, failure is not fatal: it is the courage to continue that counts.\nAuthor: Winston Churchill\nContext: Widely attributed to Churchill, capturing his wartime leadership philosophy\nSource: Attributed saying, exact source debated\n\nQuote: Never, never, never give up.\nAuthor: Winston Churchill\nContext: Paraphrase of his speech encouraging British resilience during World War II\nSource: Speech at Harrow School, October 29, 1941\n\nQuote: In the middle of difficulty lies opportunity.\nAuthor: Albert Einstein\nContext: Attributed to Einstein in discussions about facing scientific and personal challenges\nSource: Attributed saying, exact source debated\n\nUser Question: What quotes are there about perseverance?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer:\n1. Quote: \"Success is not final, failure is not fatal: it is the courage to continue that counts.\" - Winston Churchill\n\n2. Quote: \"Never, never, never give up. - Winston Churchill\n\n3. Quote: \"In the middle of difficulty lies opportunity.\" - Albert Einstein\n\n4. \"Never, never, never give up. - Winston Churchill\n\n5. \"Success is not final, failure is not fatal: it is the courage to continue that counts.\" - Winston Churchill\n\n6. \"Never, never, never give up. - Winston Churchill\n\n7. Quote: \"Always do your best. There is no such thing as a failure.\" - Winston Churchill\n\n8. \"Never, never, never give up. - Winston Churchill\n\n9. Quote",
+      "expected_answer": "Should include quotes about perseverance and resilience.",
+      "metrics": {
+        "precision": 0.6666666666666666,
+        "recall": 0.4,
+        "relevance": 0.6756438612937927,
+        "hallucination": 0.0,
+        "response_time": 28.1710684299469
+      }
+    },
+    {
+      "question": "What did Einstein say about imagination?",
+      "retrieved_ids": [
+        6,
+        17,
+        7
+      ],
+      "expected_ids": [
+        6
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Imagination is more important than knowledge.\nAuthor: Albert Einstein\nContext: From an interview reflecting on the role of creativity in scientific discovery\nSource: Often attributed to a 1929 interview in The Saturday Evening Post\n\nQuote: Genius is one percent inspiration and ninety-nine percent perspiration.\nAuthor: Thomas Edison\nContext: Comment on the relationship between hard work and invention\nSource: Interview in Harper's Monthly Magazine, 1902\n\nQuote: In the middle of difficulty lies opportunity.\nAuthor: Albert Einstein\nContext: Attributed to Einstein in discussions about facing scientific and personal challenges\nSource: Attributed saying, exact source debated\n\nUser Question: What did Einstein say about imagination?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer: Imagination is more important than knowledge. Albert Einstein\n\nSources:\n1. \"Albert Einstein\" (2021). Albert Einstein Online. https://www.albert-einstein.org/\n2. \"The Art of Imagination\" (n.d.). The Art of Imagination. https://www.theartofimagination.org/",
+      "expected_answer": "Einstein said 'Imagination is more important than knowledge.'",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.720003604888916,
+        "hallucination": 0.0,
+        "response_time": 12.897563219070435
+      }
+    },
+    {
+      "question": "What are some quotes about leadership?",
+      "retrieved_ids": [
+        5,
+        18,
+        10
+      ],
+      "expected_ids": [
+        1,
+        8,
+        10
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Be the change that you wish to see in the world.\nAuthor: Mahatma Gandhi\nContext: Often attributed to Gandhi, though exact source is debated\nSource: Attributed to Gandhi\n\nQuote: No one can make you feel inferior without your consent.\nAuthor: Eleanor Roosevelt\nContext: From her reflections on personal dignity and human rights\nSource: Often attributed to her 1940 book 'This Is My Story'\n\nQuote: Success is not final, failure is not fatal: it is the courage to continue that counts.\nAuthor: Winston Churchill\nContext: Widely attributed to Churchill, capturing his wartime leadership philosophy\nSource: Attributed saying, exact source debated\n\nUser Question: What are some quotes about leadership?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer:\n\n1. Mahatma Gandhi:\n- \"Be the change that you wish to see in the world\"\n- \"No one can make you feel inferior without your consent\"\n- \"Success is not final, failure is not fatal: it is the courage to continue that counts\"\n\n2. Winston Churchill:\n- \"Success is not final, failure is not fatal: it is the courage to continue that counts\"\n- \"The only way to do great things is to not think of them as too big, too hard, or too important.\"\n- \"The only way to do great things is to not think of them as too big, too hard, or too important.\"\n\n3. Eleanor Roosevelt:\n- \"Success is not final, failure is not fatal: it is the courage to continue that counts.\"\n- \"Success is not final, failure is not fatal: it is the courage to continue",
+      "expected_answer": "Should include quotes about leadership and governance.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "relevance": 0.5667179226875305,
+        "hallucination": 0.0,
+        "response_time": 27.953773736953735
+      }
+    }
+  ],
+  "average_metrics": {
+    "precision": 0.38888888888888884,
+    "recall": 0.7888888888888889,
+    "relevance": 0.6413187682628632,
+    "hallucination": 0.0,
+    "response_time": 18.22276779015859
+  },
+  "config": {
+    "top_k": 3,
+    "num_queries": 6,
+    "successful_queries": 6
+  }
+}
