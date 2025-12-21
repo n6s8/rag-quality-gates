@@ -3,7 +3,7 @@
       🛰️  REPOSITORY ORBIT: github.com/n6s8/rag-quality-gates
       📡 SIGNAL STRENGTH: ██████████ 100%
 
-      🎬 TRANSMISSION FEED: gyoutu.be/HgSonhJaUoU
+      🎬 TRANSMISSION FEED: youtu.be/HgSonhJaUoU
       📶 BANDWIDTH: ██████████ 100%
 
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
