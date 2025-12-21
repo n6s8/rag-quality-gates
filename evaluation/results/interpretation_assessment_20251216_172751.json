@@ -1,0 +1,100 @@
+{
+  "capable": false,
+  "average_score": 0.4600000000000001,
+  "score_breakdown": {
+    "excellent": false,
+    "good": false,
+    "needs_improvement": true
+  },
+  "question_results": [
+    {
+      "question": "What does Roosevelt's 'fear itself' quote mean?",
+      "category": "interpretation",
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: The only thing we have to fear is fear itself.\nAuthor: Franklin D. Roose...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": true,
+        "interpretation_quality": 0.7,
+        "has_interpretation": true,
+        "has_causal_explanation": false,
+        "answer_length_words": 219
+      },
+      "analysis_scores": {
+        "interpretation_score": 1.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.3333333333333333,
+        "thematic_analysis": 0.5
+      },
+      "overall_interpretation_score": 0.8499999999999999
+    },
+    {
+      "question": "Explain the historical significance of Martin Luther King's 'I have a dream' speech",
+      "category": "historical_context",
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: I have a dream that my four little children will one day live in a natio...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": true,
+        "interpretation_quality": 0.7,
+        "has_interpretation": true,
+        "has_causal_explanation": false,
+        "answer_length_words": 341
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.5,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.3333333333333333,
+        "thematic_analysis": 0.0
+      },
+      "overall_interpretation_score": 0.7
+    },
+    {
+      "question": "What is Gandhi trying to say with 'Be the change you wish to see in the world'?",
+      "category": "interpretation",
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Be the change that you wish to see in the world.\nAuthor: Mahatma Gandhi\n...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.5,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 1.0
+      },
+      "overall_interpretation_score": 0.35
+    },
+    {
+      "question": "Analyze Einstein's statement 'Imagination is more important than knowledge'",
+      "category": "interpretation",
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Imagination is more important than knowledge.\nAuthor: Albert Einstein\nCo...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.6666666666666666,
+        "thematic_analysis": 1.0
+      },
+      "overall_interpretation_score": 0.2
+    },
+    {
+      "question": "What was the context of Lincoln's 'government of the people' quote?",
+      "category": "historical_context",
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Government of the people, by the people, for the people, shall not peris...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 1.0
+      },
+      "overall_interpretation_score": 0.2
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+RAG EVALUATION SUMMARY
+========================================
+
+BASIC METRICS:
+precision            0.389
+recall               0.789
+relevance            0.608
+hallucination        0.000
+response_time        22.059
+
+ANALYSIS METRICS:
+interpretation_score 0.000
+historical_context_score 1.000
+explanation_depth    0.056
+thematic_analysis    0.583
+interpretation_quality 0.000
+
+CONFIG:
+top_k                3
+num_queries          6
+successful_queries   6
+include_analysis_metrics True
+analysis_mode        None

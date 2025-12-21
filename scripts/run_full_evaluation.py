@@ -1,65 +1,83 @@
 #!/usr/bin/env python3
-"""
-Full evaluation pipeline: Baseline → Enhancement → Report
-"""
-import subprocess
 import sys
+import subprocess
 from pathlib import Path
 
 
-def run_script(script_name: str):
-    """Run a Python script and capture output"""
-    print(f"\n{'='*60}")
-    print(f"Running: {script_name}")
-    print('='*60)
-    
-    result = subprocess.run(
-        [sys.executable, script_name],
-        capture_output=True,
-        text=True
-    )
-    
-    print(result.stdout)
-    if result.stderr:
-        print("STDERR:", result.stderr)
-    
-    return result.returncode == 0
+def run_step(script_path: Path) -> int:
+    cmd = [sys.executable, str(script_path)]
+    print("\n" + "=" * 70)
+    print(f"▶ Running: {script_path.as_posix()}")
+    print("=" * 70)
+    proc = subprocess.run(cmd, cwd=str(project_root()), text=True)
+    return proc.returncode
+
+
+def project_root() -> Path:
+    return Path(__file__).resolve().parent.parent
+
+
+def must_exist(path_str: str) -> bool:
+    p = project_root() / path_str
+    return p.exists()
 
 
 def main():
-    print("🚀 FULL RAG EVALUATION PIPELINE")
-    print("="*60)
-    
-    scripts_dir = Path(__file__).parent
-    
-    # Step 1: Create evaluation dataset
-    if not Path("data/eval_dataset.json").exists():
-        print("📝 Creating evaluation dataset...")
-        create_script = scripts_dir / "create_eval_dataset.py"
-        if create_script.exists():
-            run_script(str(create_script))
-        else:
-            print("⚠️  Create eval dataset script not found")
-    
-    # Step 2: Run baseline evaluation
-    print("\n" + "="*60)
-    print("📊 STEP 1: BASELINE EVALUATION")
-    run_script(str(scripts_dir / "run_baseline.py"))
-    
-    # Step 3: Run enhanced evaluation
-    print("\n" + "="*60)
-    print("🚀 STEP 2: ENHANCED EVALUATION")
-    run_script(str(scripts_dir / "run_enhanced.py"))
-    
-    # Step 4: Generate report
-    print("\n" + "="*60)
-    print("📋 STEP 3: GENERATE REPORT")
-    run_script(str(scripts_dir / "generate_report.py"))
-    
-    print("\n" + "="*60)
-    print("✅ EVALUATION PIPELINE COMPLETE!")
-    print("📁 Check docs/enhancement_report.md for results")
-    print("="*60)
+    root = project_root()
+
+    scripts_dir = root / "scripts"
+    baseline_script = scripts_dir / "run_baseline.py"
+    enhanced_script = scripts_dir / "run_enhanced.py"
+    report_script = scripts_dir / "generate_report.py"
+
+    for s in [baseline_script, enhanced_script, report_script]:
+        if not s.exists():
+            print(f"❌ Missing script: {s.as_posix()}")
+            return
+
+    (root / "evaluation" / "results").mkdir(parents=True, exist_ok=True)
+    (root / "docs").mkdir(parents=True, exist_ok=True)
+
+    rc = run_step(baseline_script)
+    if rc != 0:
+        print("\n❌ Baseline step failed.")
+        return
+
+    if not must_exist("evaluation/results/baseline.json"):
+        print("\n❌ baseline.json was not created. Expected: evaluation/results/baseline.json")
+        return
+    print("\n✅ Found: evaluation/results/baseline.json")
+
+    rc = run_step(enhanced_script)
+    if rc != 0:
+        print("\n❌ Enhanced step failed.")
+        return
+
+    if not must_exist("evaluation/results/enhanced_simple.json"):
+        print("\n❌ enhanced_simple.json was not created. Expected: evaluation/results/enhanced_simple.json")
+        return
+    print("\n✅ Found: evaluation/results/enhanced_simple.json")
+
+    rc = run_step(report_script)
+    if rc != 0:
+        print("\n❌ Report generation step failed.")
+        return
+
+    if not must_exist("docs/enhancement_report.md"):
+        print("\n❌ enhancement_report.md was not created. Expected: docs/enhancement_report.md")
+        return
+    print("\n✅ Found: docs/enhancement_report.md")
+
+    # Final summary
+    print("\n" + "=" * 70)
+    print("✅ FULL EVALUATION PIPELINE COMPLETE")
+    print("=" * 70)
+    print("Artifacts:")
+    print("  - evaluation/results/baseline.json")
+    print("  - evaluation/results/enhanced_simple.json")
+    print("  - docs/enhancement_report.md")
+    print("\nRun from project root:")
+    print("  python scripts/run_full_evaluation.py")
 
 
 if __name__ == "__main__":

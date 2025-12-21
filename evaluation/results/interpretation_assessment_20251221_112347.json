@@ -1,0 +1,66 @@
+{
+  "capable": false,
+  "average_score": 0.25683333333333336,
+  "score_breakdown": {
+    "excellent": false,
+    "good": false,
+    "needs_improvement": true
+  },
+  "question_results": [
+    {
+      "question": "What does Roosevelt's 'fear itself' quote mean?",
+      "category": "interpretation",
+      "answer": "The quote \"fear itself\" is a reflection of the fear Americans felt during the Great Depression, as unemployment reached 25% and banks were failing nationwide. The speaker is encouraging Americans to f...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": true,
+        "interpretation_quality": 0.141,
+        "has_interpretation": false,
+        "has_causal_explanation": false,
+        "answer_length_words": 47
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "overall_interpretation_score": 0.2705
+    },
+    {
+      "question": "Explain the historical significance of Martin Luther King's 'I have a dream' speech",
+      "category": "historical_context",
+      "answer": "The 'I have a dream' speech by Martin Luther King Jr. In 1963 marked a significant turning point for the Civil Rights Movement. The speech was a call to action to end segregation and promote justice a...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": true,
+        "interpretation_quality": 0.3,
+        "has_interpretation": false,
+        "has_causal_explanation": false,
+        "answer_length_words": 127
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.3333333333333333,
+        "thematic_analysis": 0.0
+      },
+      "overall_interpretation_score": 0.35
+    },
+    {
+      "question": "What is Gandhi trying to say with 'Be the change you wish to see in the world'?",
+      "category": "interpretation",
+      "answer": "Gandhi is trying to emphasize the importance of individual action in achieving social change. He encourages individuals to start small and gradually build on their efforts, rather than expecting grand...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.5,
+        "historical_context_score": 0.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.5
+      },
+      "overall_interpretation_score": 0.15
+    }
+  ]
+}

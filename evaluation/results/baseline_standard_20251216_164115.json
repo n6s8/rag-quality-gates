@@ -1,0 +1,257 @@
+{
+  "test_results": [
+    {
+      "question": "What did Roosevelt say about fear?",
+      "retrieved_ids": [
+        1,
+        14,
+        18
+      ],
+      "expected_ids": [
+        1
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: The only thing we have to fear is fear itself.\nAuthor: Franklin D. Roosevelt\nContext: From his first inaugural address during the Great Depression\nSource: First Inaugural Address, March 4, 1933\n\nQuote: Nothing in life is to be feared, it is only to be understood.\nAuthor: Marie Curie\nContext: Attributed to Curie reflecting on scientific exploration of radioactivity and the unknown, during a period when women faced significant barriers in science\nSource: Attributed to Curie in biographies and collected sayings\n\nQuote: No one can make you feel inferior without your consent.\nAuthor: Eleanor Roosevelt\nContext: From her writings and speeches as First Lady and human rights advocate, challenging discrimination against women and marginalized groups\nSource: Often attributed to her 1940 book 'This Is My Story'\n\nUser Question: What did Roosevelt say about fear?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer: Roosevelt's response to the question about fear in her first inaugural address was \"the only thing we have to fear is fear itself.\" This quote is attributed to her in biographies and collected sayings, and is also frequently quoted in context.",
+      "expected_answer": "Roosevelt said 'The only thing we have to fear is fear itself' during his first inaugural address in 1933.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.764521062374115,
+        "hallucination": 0.0,
+        "response_time": 13.713029146194458
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What did Martin Luther King Jr. dream about?",
+      "retrieved_ids": [
+        2,
+        5,
+        9
+      ],
+      "expected_ids": [
+        2
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.\nAuthor: Martin Luther King Jr.\nContext: Delivered at the Lincoln Memorial during the March on Washington for Jobs and Freedom, attended by 250,000 people at the height of the Civil Rights Movement\nSource: \"I Have a Dream\" speech, Lincoln Memorial, Washington D.C., August 28, 1963\n\nQuote: Be the change that you wish to see in the world.\nAuthor: Mahatma Gandhi\nContext: Attributed to Gandhi during his South Africa years developing satyagraha (nonviolent resistance), though exact source remains debated among scholars\nSource: Attributed to Gandhi, possibly from letters or speeches\n\nQuote: Those who deny freedom to others deserve it not for themselves.\nAuthor: Abraham Lincoln\nContext: From a letter written before his presidency, arguing against slavery's expansion as morally inconsistent with American principles\nSource: Letter to H.L. Pierce and others, April 6, 1859\n\nUser Question: What did Martin Luther King Jr. dream about?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer:\nMartin Luther King Jr. Dreamed of a \"Nation\" that would be judged by the content of its character, rather than its color. He believed this dream would require a collective commitment to nonviolent resistance to overcome the injustice of slavery and segregation.",
+      "expected_answer": "He dreamed that his children would be judged by their character, not their skin color.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.5140215158462524,
+        "hallucination": 0.0,
+        "response_time": 11.894548654556274
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 1.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "Who said 'Be the change you wish to see in the world'?",
+      "retrieved_ids": [
+        5,
+        19,
+        11
+      ],
+      "expected_ids": [
+        5
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Be the change that you wish to see in the world.\nAuthor: Mahatma Gandhi\nContext: Attributed to Gandhi during his South Africa years developing satyagraha (nonviolent resistance), though exact source remains debated among scholars\nSource: Attributed to Gandhi, possibly from letters or speeches\n\nQuote: In a gentle way, you can shake the world.\nAuthor: Mahatma Gandhi\nContext: Attributed to Gandhi summarizing his philosophy of satyagraha (nonviolent resistance) that achieved Indian independence through mass civil disobedience\nSource: Attributed saying from speeches and writings\n\nQuote: Never, never, never give up.\nAuthor: Winston Churchill\nContext: Paraphrase of his speech to Harrow School encouraging British resilience during World War II's difficult middle period\nSource: Speech at Harrow School, October 29, 1941\n\nUser Question: Who said 'Be the change you wish to see in the world'?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer:\nQuote: Be the change that you wish to see in the world. - Mahatma Gandhi\nContext: Attributed to Gandhi during his South Africa years developing satyagraha (nonviolent resistance), though exact source remains debated among scholars\nSource: Attributed to Gandhi, possibly from letters or speeches\n\nQuote: In a gentle way, you can shake the world. - Mahatma Gandhi\nContext: Attributed to Gandhi summarizing his philosophy of satyagraha (nonviolent resistance) that achieved Indian independence through mass civil disobedience\nSource: Attributed saying from speeches and writings\n\nQuote: Never, never, never give up. - Winston Churchill\nContext: Paraphrase of his speech to Harrow School encouraging British resilience during World War II's difficult middle period\nSource: Speech at Harrow",
+      "expected_answer": "Mahatma Gandhi",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.5052611827850342,
+        "hallucination": 0.0,
+        "response_time": 56.655221462249756
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.5
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What quotes are there about perseverance?",
+      "retrieved_ids": [
+        10,
+        11,
+        7
+      ],
+      "expected_ids": [
+        4,
+        10,
+        11,
+        13,
+        20
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Success is not final, failure is not fatal: it is the courage to continue that counts.\nAuthor: Winston Churchill\nContext: Widely attributed to Churchill during World War II, capturing his philosophy of relentless persistence despite setbacks, though exact provenance is uncertain\nSource: Attributed saying, consistent with Churchill's documented attitudes\n\nQuote: Never, never, never give up.\nAuthor: Winston Churchill\nContext: Paraphrase of his speech to Harrow School encouraging British resilience during World War II's difficult middle period\nSource: Speech at Harrow School, October 29, 1941\n\nQuote: In the middle of difficulty lies opportunity.\nAuthor: Albert Einstein\nContext: Attributed to Einstein reflecting on how scientific and personal challenges can lead to breakthroughs, consistent with his experiences during both World Wars and scientific controversies\nSource: Attributed saying, exact source debated\n\nUser Question: What quotes are there about perseverance?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer:\n1. Quote: Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill\n2. Quote: Never, never, never give up. - Winston Churchill\n3. Quote: In the middle of difficulty lies opportunity. - Albert Einstein\n\nNote: Please provide a specific citation for each quote.",
+      "expected_answer": "Should include quotes about perseverance and resilience.",
+      "metrics": {
+        "precision": 0.6666666666666666,
+        "recall": 0.4,
+        "relevance": 0.5885180830955505,
+        "hallucination": 0.0,
+        "response_time": 15.519560098648071
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.5
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What did Einstein say about imagination?",
+      "retrieved_ids": [
+        6,
+        17,
+        7
+      ],
+      "expected_ids": [
+        6
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Imagination is more important than knowledge.\nAuthor: Albert Einstein\nContext: From an interview discussing the role of creativity in scientific discovery, as Einstein reflected on his own theoretical breakthroughs that revolutionized physics\nSource: Interview in The Saturday Evening Post, 1929\n\nQuote: Genius is one percent inspiration and ninety-nine percent perspiration.\nAuthor: Thomas Edison\nContext: Interview comment about the relationship between creativity and hard work during America's Industrial Revolution and Edison's prolific inventing career\nSource: Interview in Harper's Monthly Magazine, 1902\n\nQuote: In the middle of difficulty lies opportunity.\nAuthor: Albert Einstein\nContext: Attributed to Einstein reflecting on how scientific and personal challenges can lead to breakthroughs, consistent with his experiences during both World Wars and scientific controversies\nSource: Attributed saying, exact source debated\n\nUser Question: What did Einstein say about imagination?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer: Einstein's quote about imagination reflects his belief that creative thinking can lead to revolutionary scientific discoveries. He believed that ideas can come from anywhere, and that the more one thinks, the more ideas may be generated. The quote emphasizes the importance of imagination as a tool for scientific innovation and advancement.",
+      "expected_answer": "Einstein said 'Imagination is more important than knowledge.'",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.7049784064292908,
+        "hallucination": 0.0,
+        "response_time": 15.383917331695557
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.3333333333333333,
+        "thematic_analysis": 1.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What are some quotes about leadership?",
+      "retrieved_ids": [
+        5,
+        18,
+        10
+      ],
+      "expected_ids": [
+        1,
+        8,
+        10
+      ],
+      "answer": "You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\n\nContext information:\nQuote: Be the change that you wish to see in the world.\nAuthor: Mahatma Gandhi\nContext: Attributed to Gandhi during his South Africa years developing satyagraha (nonviolent resistance), though exact source remains debated among scholars\nSource: Attributed to Gandhi, possibly from letters or speeches\n\nQuote: No one can make you feel inferior without your consent.\nAuthor: Eleanor Roosevelt\nContext: From her writings and speeches as First Lady and human rights advocate, challenging discrimination against women and marginalized groups\nSource: Often attributed to her 1940 book 'This Is My Story'\n\nQuote: Success is not final, failure is not fatal: it is the courage to continue that counts.\nAuthor: Winston Churchill\nContext: Widely attributed to Churchill during World War II, capturing his philosophy of relentless persistence despite setbacks, though exact provenance is uncertain\nSource: Attributed saying, consistent with Churchill's documented attitudes\n\nUser Question: What are some quotes about leadership?\n\nInstructions:\n1. Answer based ONLY on the provided context\n2. If the answer is not in the context, say \"I cannot find that information in my knowledge base\"\n3. Be concise and accurate\n4. Cite sources when possible\n\nAnswer:\n\n1. \"No one can make you feel inferior without your consent.\" - Eleanor Roosevelt\n2. \"Success is not final, failure is not fatal: it is the courage to continue that counts.\" - Winston Churchill\n3. \"You are a historical quotes expert. Answer the user's question based ONLY on the provided context.\"\n\nThis answer is based on the provided context and the attributed sayings of Winston Churchill and Eleanor Roosevelt.",
+      "expected_answer": "Should include quotes about leadership and governance.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "relevance": 0.5724003911018372,
+        "hallucination": 0.0,
+        "response_time": 19.187944173812866
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.5
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    }
+  ],
+  "average_metrics": {
+    "precision": 0.38888888888888884,
+    "recall": 0.7888888888888889,
+    "relevance": 0.6082834402720133,
+    "hallucination": 0.0,
+    "response_time": 22.05903681119283,
+    "interpretation_score": 0.0,
+    "historical_context_score": 1.0,
+    "explanation_depth": 0.05555555555555555,
+    "thematic_analysis": 0.5833333333333334,
+    "interpretation_quality": 0.0
+  },
+  "config": {
+    "top_k": 3,
+    "num_queries": 6,
+    "successful_queries": 6,
+    "include_analysis_metrics": true,
+    "analysis_mode": null
+  }
+}

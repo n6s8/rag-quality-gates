@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-12-21T11:11:20.683499",
+  "baseline_evaluation_summary": {
+    "standard_mode": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "relevance": 0.5116110610542819,
+      "interpretation_score": 0.0,
+      "historical_context_score": 0.0,
+      "explanation_depth": 0.0
+    },
+    "comprehensive_mode": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "relevance": 0.5116110610542819,
+      "interpretation_score": 0.0,
+      "historical_context_score": 0.0,
+      "explanation_depth": 0.0
+    }
+  },
+  "interpretation_capabilities": {
+    "capable": false,
+    "average_score": 0.01,
+    "assessment_level": "needs_improvement"
+  },
+  "recommendations": [
+    "Consider improving retrieval precision through better keyword boosting or re-ranking",
+    "Improve quote interpretation by adding more analysis data to the dataset",
+    "Enhance historical context retrieval by adding historical significance fields"
+  ]
+}

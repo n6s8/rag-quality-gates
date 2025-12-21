@@ -1,96 +1,112 @@
 #!/usr/bin/env python3
 """
-Run evaluation with enhanced RAG
+Enhanced RAG Evaluation Runner
+Runs evaluation for enhanced RAG system and saves stable result files for reporting
 """
 import sys
 import os
 from pathlib import Path
+from datetime import datetime
 
-# Fix path
-current_dir = Path(__file__).parent
-project_root = current_dir.parent
-sys.path.insert(0, str(project_root))
-
-print(f"Project root: {project_root}")
-print(f"Python path: {sys.path[:3]}")
+# Fix imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 try:
-    # Try to import
-    from enhancements.simple_enhancement import EnhancedRAG
     from evaluation.evaluator import RAGEvaluator
-    print("✅ All imports successful!")
-except Exception as e:
-    print(f"❌ Import failed: {e}")
-    print("\nTrying alternative import...")
-    
-    # Try direct import
-    import importlib.util
-    import sys
-    
-    # Import evaluator
-    evaluator_path = project_root / "evaluation" / "evaluator.py"
-    spec = importlib.util.spec_from_file_location("evaluator", evaluator_path)
-    evaluator_module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(evaluator_module)
-    RAGEvaluator = evaluator_module.RAGEvaluator
-    print("✅ Evaluator imported directly")
-    
-    # Import enhanced RAG
-    enhancer_path = project_root / "enhancements" / "simple_enhancement.py"
-    spec = importlib.util.spec_from_file_location("enhancer", enhancer_path)
-    enhancer_module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(enhancer_module)
-    EnhancedRAG = enhancer_module.EnhancedRAG
-    print("✅ EnhancedRAG imported directly")
+    from rag.rag_pipeline_rest import RAGPipeline
+    IMPORTS_OK = True
+except ImportError as e:
+    print(f"❌ Import error: {e}")
+    print("Make sure you're running from project root directory")
+    IMPORTS_OK = False
+
+
+def print_metrics_summary(results, title="Evaluation Results"):
+    avg = results.get("average_metrics", {})
+
+    print(f"\n📊 {title}")
+    print("-" * 60)
+    print(f"  Retrieval Precision:     {avg.get('precision', 0):.3f}")
+    print(f"  Retrieval Recall:        {avg.get('recall', 0):.3f}")
+    print(f"  Answer Relevance:        {avg.get('relevance', 0):.3f}")
+    print(f"  Hallucination:           {avg.get('hallucination', 0):.3f}")
+    print(f"  Response Time:           {avg.get('response_time', 0):.3f}s")
+
+    if "interpretation_score" in avg:
+        print("\n🧠 ANALYSIS METRICS:")
+        print(f"  Interpretation Score:    {avg.get('interpretation_score', 0):.3f}")
+        print(f"  Historical Context:      {avg.get('historical_context_score', 0):.3f}")
+        print(f"  Explanation Depth:       {avg.get('explanation_depth', 0):.3f}")
+        print(f"  Thematic Analysis:       {avg.get('thematic_analysis', 0):.3f}")
+        print(f"  Interpretation Quality:  {avg.get('interpretation_quality', 0):.3f}")
 
 
 def main():
-    print("\n" + "="*60)
-    print("🚀 RUNNING ENHANCED RAG EVALUATION")
-    print("="*60)
-    
-    # Initialize pipeline
-    pipeline = EnhancedRAG()
-    
-    # Run evaluation
-    evaluator = RAGEvaluator(pipeline)
-    results = evaluator.run_evaluation(top_k=3)
-    
-    # Display summary
-    print("\n" + "="*60)
-    print("📋 ENHANCED EVALUATION RESULTS")
-    print("="*60)
-    
-    avg = results['average_metrics']
-    print(f"📈 Average Precision:  {avg.get('precision', 0):.3f}")
-    print(f"📈 Average Recall:     {avg.get('recall', 0):.3f}")
-    print(f"📝 Answer Relevance:   {avg.get('relevance', 0):.3f}")
-    print(f"👻 Hallucination:      {avg.get('hallucination', 0):.3f}")
-    print(f"⏱️  Response Time:     {avg.get('response_time', 0):.3f}s")
-    
-    # Calculate improvement needed
-    baseline_path = project_root / "evaluation" / "results" / "baseline.json"
-    if baseline_path.exists():
-        import json
-        with open(baseline_path, 'r') as f:
-            baseline = json.load(f)
-        baseline_precision = baseline['average_metrics'].get('precision', 0)
-        
-        improvement = ((avg.get('precision', 0) - baseline_precision) / baseline_precision * 100) if baseline_precision > 0 else 0
-        print(f"📊 Precision Improvement: {improvement:+.1f}%")
-        
-        if improvement >= 30:
-            print("🎉 ✅ TARGET ACHIEVED: ≥30% improvement!")
-        else:
-            print(f"⚠️  Target NOT achieved: Need ≥30%, got {improvement:.1f}%")
-    
-    # Save results
+    if not IMPORTS_OK:
+        print("❌ Cannot run enhanced evaluation due to import errors")
+        return
+
+    print("🚀 Running Enhanced RAG Evaluation")
+    print("=" * 70)
+
     os.makedirs("evaluation/results", exist_ok=True)
-    output_path = "evaluation/results/enhanced_simple.json"
-    evaluator.save_results(results, output_path)
-    
-    print(f"\n📁 Results saved to: {output_path}")
-    print("✅ Enhanced evaluation complete!")
+
+    try:
+        print("🔧 Initializing Enhanced RAG Pipeline...")
+        pipeline = RAGPipeline(use_enhanced=True)
+        print("✅ Enhanced pipeline initialized")
+
+        evaluator = RAGEvaluator(pipeline)
+
+        print("\n📊 Running evaluation...")
+        results = evaluator.run_evaluation(
+            top_k=3,
+            include_analysis_metrics=True,
+            analysis_mode=None
+        )
+
+        print_metrics_summary(results, "Enhanced System Results")
+
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+        enhanced_timestamped = f"evaluation/results/enhanced_simple_{timestamp}.json"
+        evaluator.save_results(results, enhanced_timestamped)
+
+        enhanced_stable = "evaluation/results/enhanced_simple.json"
+        evaluator.save_results(results, enhanced_stable)
+
+        print("\n📁 Saved:")
+        print(f"  {enhanced_timestamped}")
+        print(f"  {enhanced_stable}")
+
+        baseline_path = Path("evaluation/results/baseline.json")
+        if baseline_path.exists():
+            try:
+                import json
+                with open(baseline_path, "r", encoding="utf-8") as f:
+                    baseline = json.load(f)
+                base_avg = baseline.get("average_metrics", {})
+                enh_avg = results.get("average_metrics", {})
+
+                base_p = float(base_avg.get("precision", 0) or 0)
+                enh_p = float(enh_avg.get("precision", 0) or 0)
+                improvement = ((enh_p - base_p) / base_p * 100) if base_p != 0 else 0.0
+
+                print("\n📈 Precision Improvement vs baseline.json:")
+                print(f"  Baseline:  {base_p:.3f}")
+                print(f"  Enhanced:  {enh_p:.3f}")
+                print(f"  Change:    {improvement:+.1f}%")
+            except Exception as e:
+                print(f"⚠️ Could not compute improvement vs baseline.json: {e}")
+        else:
+            print("\nℹ️ baseline.json not found yet. Run scripts/run_baseline.py first for comparisons.")
+
+        print("\n✅ Enhanced evaluation complete!")
+
+    except Exception as e:
+        print(f"❌ Enhanced evaluation failed: {e}")
+        import traceback
+        traceback.print_exc()
 
 
 if __name__ == "__main__":

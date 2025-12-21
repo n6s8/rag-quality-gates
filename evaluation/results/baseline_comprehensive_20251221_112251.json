@@ -1,0 +1,257 @@
+{
+  "test_results": [
+    {
+      "question": "What did Roosevelt say about fear?",
+      "retrieved_ids": [
+        1,
+        14,
+        18
+      ],
+      "expected_ids": [
+        1
+      ],
+      "answer": "Fear is a powerful force that can paralyze us into doing and saying things we don't mean. However, this is not a weakness but a strength. We must be mindful of and understand the source of our fears, and work to overcome them.",
+      "expected_answer": "Roosevelt said 'The only thing we have to fear is fear itself' during his first inaugural address in 1933.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.7986764907836914,
+        "hallucination": 0.34024318056671243,
+        "response_time": 10.13536810874939
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What did Martin Luther King Jr. dream about?",
+      "retrieved_ids": [
+        2,
+        5,
+        9
+      ],
+      "expected_ids": [
+        2
+      ],
+      "answer": "Martin Luther King Jr. Dreamed about a nation where his four little children could live without being judged by the color of their skin but by the content of their character. He spoke about this dream during the March on Washington for Jobs and Freedom. The exact context of this dream remains debated among scholars.",
+      "expected_answer": "He dreamed that his children would be judged by their character, not their skin color.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.8332648575305939,
+        "hallucination": 0.09649217812151745,
+        "response_time": 11.892805576324463
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.6666666666666666,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "Who said 'Be the change you wish to see in the world'?",
+      "retrieved_ids": [
+        5,
+        19,
+        11
+      ],
+      "expected_ids": [
+        5
+      ],
+      "answer": "Mahatma Gandhi\n\nConclusion:\nThe given context provides a detailed background on Mahatma Gandhi's quote \"Be the change you wish to see in the world.\" Mahatma Gandhi, also known as Mohandas Karamchand Gandhi, was a leading Indian political and spiritual leader who led the Indian independence movement. He is credited with establishing Satyagraha as a key tool in the struggle for Indian freedom. The quote encourages people to strive for change, which can be achieved through civil disobedience and nonviolent resistance. Mahatma Gandhi's quote is attributed to him during his years in South Africa developing satyagraha. It is widely considered one of the most important and inspiring statements of nonviolent resistance in history.",
+      "expected_answer": "Mahatma Gandhi",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.8405841290950775,
+        "hallucination": 0.1739755977602566,
+        "response_time": 26.290740728378296
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.3333333333333333,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What quotes are there about perseverance?",
+      "retrieved_ids": [
+        10,
+        11,
+        7
+      ],
+      "expected_ids": [
+        4,
+        10,
+        11,
+        13,
+        20
+      ],
+      "answer": "1) Winston Churchill: \"Never, never, never give up. - Attributed to Churchill during World War II\n2) Albert Einstein: \"In the middle of difficulty lies opportunity. - Attributed to Einstein during both World Wars and scientific controversies\n3) Winston Churchill: \"Success is not final, failure is not fatal: it is the courage to continue that counts. - Attributed to Churchill during World War II\n4) Albert Einstein: \"Never, never, never give up. - Attributed to Einstein during both World Wars and scientific controversies\n5) Albert Einstein: \"The only thing we have to fear is fear itself. - Attributed to Einstein during his famous \"I have a dream\" speech in 1963. - Consistent with his belief in the power of knowledge, science, and technology to improve the world. - Source: Letter to M.N. Roy, 1955, p. 71, Einstein Collection, National Museum of Mathematics, New York City.",
+      "expected_answer": "Should include quotes about perseverance and resilience.",
+      "metrics": {
+        "precision": 0.6666666666666666,
+        "recall": 0.4,
+        "relevance": 0.7346563637256622,
+        "hallucination": 0.4207662063425984,
+        "response_time": 34.59864258766174
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.6666666666666666,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 1.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What did Einstein say about imagination?",
+      "retrieved_ids": [
+        6,
+        17,
+        7
+      ],
+      "expected_ids": [
+        6
+      ],
+      "answer": "According to the provided context, Einstein said that imagination is more important than knowledge. This statement is consistent with his theoretical breakthroughs and scientific discoveries, as he famously used his own creative insights to revolutionize physics.\n\nCitation:\nInterview in The Saturday Evening Post, 1929\n\nConclusion:\nThe provided context provides a clear understanding of Einstein's quote and its significance in his work, reinforcing his role as a historical figure in the development of science and technology.",
+      "expected_answer": "Einstein said 'Imagination is more important than knowledge.'",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.9453659653663635,
+        "hallucination": 0.21434453305873002,
+        "response_time": 18.06985831260681
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.6666666666666666,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.5
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What are some quotes about leadership?",
+      "retrieved_ids": [
+        5,
+        18,
+        10
+      ],
+      "expected_ids": [
+        1,
+        8,
+        10
+      ],
+      "answer": "1. \"Leadership is about setting a high standard of behavior that others will strive for.\" - Peter F. Drucker\n2. \"The only way to do great work is to love what you do.\" - Steve Jobs\n3. \"Leadership is not about being the boss. It's about being the person people want to follow.\" - Simon Sinek\n4. \"A leader is someone who knows the way, goes the way, and shows the way.\" - Winston Churchill\n\nSources:\n- https://www.pewresearch.org/fact-tank/2018/02/22/the-big-question-how-little-kids-think-about-leadership/\n- https://www.investopedia.com/articles/personal-finance/062215/top-10-quotes-leadership.asp\n- https://www.pewresearch.org/fact-tank/2020/06/15/leading-from-the-front-how-americans-view-leaders-at-home-and-abroad/\n- https://www.ted.com/speakers/maria_torres_on_leadership_how_to_lead_from_your_mother/videos",
+      "expected_answer": "Should include quotes about leadership and governance.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "relevance": 0.8116379976272583,
+        "hallucination": 0.6158278018945739,
+        "response_time": 50.46390175819397
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    }
+  ],
+  "average_metrics": {
+    "precision": 0.38888888888888884,
+    "recall": 0.7888888888888889,
+    "relevance": 0.8273643006881078,
+    "hallucination": 0.31027491629073145,
+    "response_time": 25.241886178652447,
+    "interpretation_score": 0.0,
+    "historical_context_score": 0.49999999999999994,
+    "explanation_depth": 0.05555555555555555,
+    "thematic_analysis": 0.25,
+    "interpretation_quality": 0.0
+  },
+  "config": {
+    "top_k": 3,
+    "num_queries": 6,
+    "successful_queries": 6,
+    "include_analysis_metrics": true,
+    "analysis_mode": "comprehensive"
+  }
+}

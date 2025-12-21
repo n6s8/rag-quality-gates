@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What does Roosevelt's 'fear itself' quote mean?",
+    "expected_answer": "Roosevelt meant that fear can paralyze us more than actual dangers. He encouraged facing the Great Depression with courage rather than panic.",
+    "expected_quote_ids": [
+      1
+    ],
+    "expected_authors": [
+      "Franklin D. Roosevelt"
+    ],
+    "category": "interpretation"
+  },
+  {
+    "question": "Explain the historical significance of Martin Luther King's 'I have a dream' speech",
+    "expected_answer": "The speech galvanized the Civil Rights Movement, helped pass civil rights legislation, and remains a defining moment in American history.",
+    "expected_quote_ids": [
+      2
+    ],
+    "expected_authors": [
+      "Martin Luther King Jr."
+    ],
+    "category": "historical_context"
+  },
+  {
+    "question": "What is Gandhi trying to say with 'Be the change you wish to see in the world'?",
+    "expected_answer": "Gandhi emphasized that social transformation begins with personal transformation. Each individual must embody the values they want to see in society.",
+    "expected_quote_ids": [
+      5
+    ],
+    "expected_authors": [
+      "Mahatma Gandhi"
+    ],
+    "category": "interpretation"
+  },
+  {
+    "question": "Analyze Einstein's statement 'Imagination is more important than knowledge'",
+    "expected_answer": "Einstein argued that imagination drives scientific progress beyond existing knowledge, enabling theoretical breakthroughs like relativity.",
+    "expected_quote_ids": [
+      6
+    ],
+    "expected_authors": [
+      "Albert Einstein"
+    ],
+    "category": "interpretation"
+  },
+  {
+    "question": "What was the context of Lincoln's 'government of the people' quote?",
+    "expected_answer": "From the Gettysburg Address during the Civil War, redefining the war's purpose as realizing democratic ideals.",
+    "expected_quote_ids": [
+      8
+    ],
+    "expected_authors": [
+      "Abraham Lincoln"
+    ],
+    "category": "historical_context"
+  }
+]

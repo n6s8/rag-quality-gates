@@ -1,0 +1,66 @@
+{
+  "capable": false,
+  "average_score": 0.32649999999999996,
+  "score_breakdown": {
+    "excellent": false,
+    "good": false,
+    "needs_improvement": true
+  },
+  "question_results": [
+    {
+      "question": "What does Roosevelt's 'fear itself' quote mean?",
+      "category": "interpretation",
+      "answer": "Roosevelt's fear itself quote is a metaphorical expression that suggests that fear, in any form, is a self-perpetuating force that can easily lead to tragic outcomes. This quote was widely circulated ...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": true,
+        "interpretation_quality": 0.559,
+        "has_interpretation": true,
+        "has_causal_explanation": false,
+        "answer_length_words": 53
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.5,
+        "historical_context_score": 0.6666666666666666,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "overall_interpretation_score": 0.5628333333333333
+    },
+    {
+      "question": "Explain the historical significance of Martin Luther King's 'I have a dream' speech",
+      "category": "historical_context",
+      "answer": "The 'I have a dream' speech was a powerful and iconic speech by Martin Luther King Jr. It was delivered at the Lincoln Memorial in Washington D.C. during the March on Washington for Jobs and Freedom i...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": true,
+        "interpretation_quality": 0.3,
+        "has_interpretation": false,
+        "has_causal_explanation": false,
+        "answer_length_words": 155
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "overall_interpretation_score": 0.35
+    },
+    {
+      "question": "What is Gandhi trying to say with 'Be the change you wish to see in the world'?",
+      "category": "interpretation",
+      "answer": "Gandhi is suggesting that individuals can make a positive change in the world by adopting and implementing his philosophy of nonviolent resistance. The quote invites individuals to adopt a moral and p...",
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      },
+      "analysis_scores": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.3333333333333333,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 1.0
+      },
+      "overall_interpretation_score": 0.06666666666666667
+    }
+  ]
+}

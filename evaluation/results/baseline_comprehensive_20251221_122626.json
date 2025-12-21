@@ -1,0 +1,257 @@
+{
+  "test_results": [
+    {
+      "question": "What did Roosevelt say about fear?",
+      "retrieved_ids": [
+        1,
+        14,
+        18
+      ],
+      "expected_ids": [
+        1
+      ],
+      "answer": "Roosevelt's quote about fear is \"Nothing in life is to be feared, it is only to be understood. It is my firm belief that the only thing we have to fear is fear itself.\" The reference to fear is from his 1933 inaugural address, where he speaks of the Great Depression and the societal and economic challenges facing the US.",
+      "expected_answer": "Roosevelt said 'The only thing we have to fear is fear itself' during his first inaugural address in 1933.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.9428123235702515,
+        "hallucination": 0.16548165237462079,
+        "response_time": 18.164206504821777
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.3333333333333333,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.5
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What did Martin Luther King Jr. dream about?",
+      "retrieved_ids": [
+        2,
+        5,
+        9
+      ],
+      "expected_ids": [
+        2
+      ],
+      "answer": "Martin Luther King Jr. Dreamed of a nation where there was \"one nation under God, indivisible, with liberty and justice for all.\" This quote comes from his famous speech \"I Have a Dream,\" which he delivered at the Lincoln Memorial during the March on Washington for Jobs and Freedom in August 1963.",
+      "expected_answer": "He dreamed that his children would be judged by their character, not their skin color.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.6984813958406448,
+        "hallucination": 0.13521681385380882,
+        "response_time": 43.95644402503967
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.3333333333333333,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "Who said 'Be the change you wish to see in the world'?",
+      "retrieved_ids": [
+        5,
+        19,
+        11
+      ],
+      "expected_ids": [
+        5
+      ],
+      "answer": "1. Be the change that you wish to see in the world: Attributed to Mahatma Gandhi, possibly from letters or speeches\n\nContext:\nGiven context: Attributed to Gandhi during his South Africa years developing satyagraha (nonviolent resistance), though exact source remains debated among scholars.\nSource:\n\n2. In a gentle way, you can shake the world: Attributed to Mahatma Gandhi, possibly from letters or speeches\n\nContext:\nGiven context: Attributed to Gandhi summarizing his philosophy of satyagraha (nonviolent resistance) that achieved Indian independence through mass civil disobedience.\nSource:\n\n3. Never, never, never give up: Paraphrase of his speech to Harrow School encouraging British resilience during World War II's difficult middle period\n\nContext:\nGiven context: Speech at Harrow School, October 29, 1941\n\nSource:\n\nQuote: Always be the change you wish to see in the world. \nAuthor: Unknown\nContext: From a 1970s booklet on Gandhi's philosophy.\nSource: Unknown\n\nQuote: Be the change that you wish to see in the world. \nAuthor: Mahatma Gandhi\nContext: Attributed to Gandhi during his South Africa years developing satyagraha (nonviolent resistance), though exact source remains debated among scholars.\nSource: Attributed saying from speeches and writings\n\nQuote: Never, never, never give up. \nAuthor: Winston Churchill\nContext: Paraphrase of his speech to Harrow School encouraging British resilience during World War II's difficult middle period\nSource: Spe",
+      "expected_answer": "Mahatma Gandhi",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.7881755828857422,
+        "hallucination": 0.36250242408244837,
+        "response_time": 99.67967343330383
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.5
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What quotes are there about perseverance?",
+      "retrieved_ids": [
+        10,
+        11,
+        7
+      ],
+      "expected_ids": [
+        4,
+        10,
+        11,
+        13,
+        20
+      ],
+      "answer": "Winston Churchill's quote about persistence is a well-known example of perseverance, and it's often cited in books and essays about leadership and resilience. Albert Einstein's quote about opportunity is a popular example of the idea that difficulties can lead to personal growth and breakthroughs. Widely attributed to Churchill during World War II, it's often referred to as the \"Windmill\" quote. Albert Einstein's quote about perseverance is an example of how scientific and personal challenges can lead to breakthroughs, referenced in his famous essay \"Notes on a Nuclear Age\" in 1955.",
+      "expected_answer": "Should include quotes about perseverance and resilience.",
+      "metrics": {
+        "precision": 0.6666666666666666,
+        "recall": 0.4,
+        "relevance": 0.808759868144989,
+        "hallucination": 0.2843846523099476,
+        "response_time": 20.88248372077942
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.5
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What did Einstein say about imagination?",
+      "retrieved_ids": [
+        6,
+        17,
+        7
+      ],
+      "expected_ids": [
+        6
+      ],
+      "answer": "Einstein said that imagination is more important than knowledge. The quote comes from an interview discussing scientific discoveries, and his statement is attributed to him.",
+      "expected_answer": "Einstein said 'Imagination is more important than knowledge.'",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "relevance": 0.9660337567329407,
+        "hallucination": 0.16792733050309694,
+        "response_time": 6.1718316078186035
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.0,
+        "explanation_depth": 0.3333333333333333,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What are some quotes about leadership?",
+      "retrieved_ids": [
+        5,
+        18,
+        10
+      ],
+      "expected_ids": [
+        1,
+        8,
+        10
+      ],
+      "answer": "1. \"No one can make you feel inferior without your consent.\" - Eleanor Roosevelt \n2. \"Success is not final, failure is not fatal: it is the courage to continue that counts.\" - Winston Churchill \n3. \"Be the change that you wish to see in the world.\" - Mahatma Gandhi \n4. \"Success is not final, failure is not fatal: it is the courage to continue that counts.\" - Winston Churchill \n\nNote: The provided context may not be the only possible source for these quotes.",
+      "expected_answer": "Should include quotes about leadership and governance.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "relevance": 0.715587243437767,
+        "hallucination": 0.40301691075930224,
+        "response_time": 18.30042791366577
+      },
+      "pipeline_info": {
+        "analysis_mode": "comprehensive",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.3333333333333333,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    }
+  ],
+  "average_metrics": {
+    "precision": 0.38888888888888884,
+    "recall": 0.7888888888888889,
+    "relevance": 0.8199750284353892,
+    "hallucination": 0.2530882973138708,
+    "response_time": 34.52584453423818,
+    "interpretation_score": 0.0,
+    "historical_context_score": 0.5,
+    "explanation_depth": 0.05555555555555555,
+    "thematic_analysis": 0.25,
+    "interpretation_quality": 0.0
+  },
+  "config": {
+    "top_k": 3,
+    "num_queries": 6,
+    "successful_queries": 6,
+    "include_analysis_metrics": true,
+    "analysis_mode": "comprehensive"
+  }
+}

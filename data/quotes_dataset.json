@@ -5,10 +5,15 @@
     "author": "Franklin D. Roosevelt",
     "era": "1933",
     "topic": "Leadership, Courage",
-    "context": "From his first inaugural address during the Great Depression",
+    "context": "From his first inaugural address during the Great Depression when US unemployment reached 25% and banks were failing nationwide",
     "source": "First Inaugural Address, March 4, 1933",
-    "tags": ["courage", "depression", "leadership", "politics"],
-    "language": "English"
+    "tags": ["courage", "depression", "leadership", "politics", "great depression", "inaugural"],
+    "language": "English",
+    "interpretation": "Roosevelt argued that fear itself—the psychological paralysis—is more dangerous than actual problems. He urged Americans to confront economic crisis with courage rather than panic, emphasizing that collective confidence could overcome material hardship.",
+    "historical_significance": "This became the defining phrase of Roosevelt's New Deal era. It marked a radical shift from Hoover's approach and set the tone for unprecedented federal intervention. The speech rallied a despairing nation and is considered one of the most important presidential addresses in US history.",
+    "themes": ["psychological resilience", "leadership communication", "crisis management", "public confidence", "economic psychology"],
+    "key_phrases": ["fear itself"],
+    "modern_relevance": "Still cited during economic crises, pandemics, and national emergencies to encourage facing challenges with courage rather than paralysis."
   },
   {
     "id": 2,
@@ -16,10 +21,15 @@
     "author": "Martin Luther King Jr.",
     "era": "1963",
     "topic": "Civil Rights, Equality",
-    "context": "From the 'I Have a Dream' speech during the March on Washington",
-    "source": "Lincoln Memorial, Washington D.C., August 28, 1963",
-    "tags": ["civil rights", "equality", "dream", "freedom"],
-    "language": "English"
+    "context": "Delivered at the Lincoln Memorial during the March on Washington for Jobs and Freedom, attended by 250,000 people at the height of the Civil Rights Movement",
+    "source": "\"I Have a Dream\" speech, Lincoln Memorial, Washington D.C., August 28, 1963",
+    "tags": ["civil rights", "equality", "dream", "freedom", "race", "justice", "march on washington"],
+    "language": "English",
+    "interpretation": "King articulated a vision of racial equality where personal character matters more than skin color. The 'dream' metaphor contrasted America's reality of segregation with its promised ideals. The personal reference to his children made the struggle intimate and urgent.",
+    "historical_significance": "The speech galvanized the Civil Rights Movement and helped pass the Civil Rights Act (1964) and Voting Rights Act (1965). It redefined American discourse on race and remains the most famous American speech of the 20th century. Delivered exactly 100 years after the Emancipation Proclamation.",
+    "themes": ["racial justice", "american dream", "fatherhood", "character vs appearance", "prophetic vision"],
+    "key_phrases": ["I have a dream", "content of their character"],
+    "modern_relevance": "Continues to inspire movements for racial justice worldwide and is studied as a masterpiece of rhetoric and moral persuasion."
   },
   {
     "id": 3,
@@ -27,10 +37,15 @@
     "author": "Neil Armstrong",
     "era": "1969",
     "topic": "Exploration, Science",
-    "context": "While stepping onto the lunar surface during the Apollo 11 mission",
-    "source": "Lunar surface, July 20, 1969",
-    "tags": ["space", "moon", "exploration", "achievement"],
-    "language": "English"
+    "context": "Spoken while stepping from the lunar module onto the Moon's surface during the Apollo 11 mission, watched by approximately 650 million people worldwide",
+    "source": "Lunar surface transmission, July 20, 1969",
+    "tags": ["space", "moon", "exploration", "achievement", "apollo", "nasa", "first step"],
+    "language": "English",
+    "interpretation": "Armstrong contrasted the physical smallness of his step with the monumental significance for humanity. The phrase captures both human humility and ambition—individual action representing collective progress. The missing 'a' before 'man' (debated) adds to its iconic imperfection.",
+    "historical_significance": "Marked the culmination of the Space Race and the first human footsteps on another celestial body. Symbolized American technological supremacy during the Cold War. Represented perhaps humanity's greatest technological achievement to date.",
+    "themes": ["human achievement", "exploration", "individual vs collective", "technological triumph", "cold war symbolism"],
+    "key_phrases": ["small step for man", "giant leap for mankind"],
+    "modern_relevance": "Epitomizes human exploration spirit, cited in discussions of Mars missions, AI advancement, and breakthrough technologies."
   },
   {
     "id": 4,
@@ -38,10 +53,15 @@
     "author": "Nelson Mandela",
     "era": "1994",
     "topic": "Resilience, Perseverance",
-    "context": "From his autobiography 'Long Walk to Freedom'",
-    "source": "Long Walk to Freedom, 1994",
-    "tags": ["resilience", "perseverance", "glory", "struggle"],
-    "language": "English"
+    "context": "From his autobiography written during 27 years of imprisonment, published as South Africa transitioned from apartheid to democracy with Mandela as its first black president",
+    "source": "\"Long Walk to Freedom\", 1994",
+    "tags": ["resilience", "perseverance", "glory", "struggle", "apartheid", "forgiveness", "leadership"],
+    "language": "English",
+    "interpretation": "Mandela redefines glory not as perfect success but as resilience in failure. Drawing from his prison experience, he suggests true achievement comes from persistence through adversity. The quote embodies his philosophy of reconciliation over retaliation.",
+    "historical_significance": "Captures the spirit of South Africa's Truth and Reconciliation process. Mandela's ability to 'rise' from prisoner to president without bitterness became a global model for conflict resolution. The autobiography inspired democratic movements worldwide.",
+    "themes": ["resilience", "redemption", "political struggle", "forgiveness", "post-conflict healing"],
+    "key_phrases": ["rising every time we fall"],
+    "modern_relevance": "Cited in contexts of personal recovery, political comebacks, and organizational resilience. Popular in motivational and leadership literature."
   },
   {
     "id": 5,
@@ -49,10 +69,15 @@
     "author": "Mahatma Gandhi",
     "era": "1913",
     "topic": "Activism, Personal Responsibility",
-    "context": "Often attributed to Gandhi, though exact source is debated",
-    "source": "Attributed to Gandhi",
-    "tags": ["change", "action", "responsibility", "philosophy"],
-    "language": "English"
+    "context": "Attributed to Gandhi during his South Africa years developing satyagraha (nonviolent resistance), though exact source remains debated among scholars",
+    "source": "Attributed to Gandhi, possibly from letters or speeches",
+    "tags": ["change", "action", "responsibility", "philosophy", "nonviolence", "personal ethics"],
+    "language": "English",
+    "interpretation": "Gandhi emphasized that social change begins with individual transformation. Rather than waiting for systems or others to change, each person must embody their ideals. This reflects his belief in the interconnectedness of personal and political ethics.",
+    "historical_significance": "Became the philosophical foundation for Gandhian nonviolence that influenced civil rights movements globally. Though its exact origin is debated, it perfectly captures Gandhi's core teaching about the relationship between personal conduct and social change.",
+    "themes": ["personal responsibility", "ethical consistency", "social change theory", "nonviolent activism", "exemplary leadership"],
+    "key_phrases": ["be the change"],
+    "modern_relevance": "Ubiquitous in activism, self-help, and corporate social responsibility. Represents the idea that individual actions collectively create societal transformation."
   },
   {
     "id": 6,
@@ -60,10 +85,15 @@
     "author": "Albert Einstein",
     "era": "1929",
     "topic": "Creativity, Science",
-    "context": "From an interview reflecting on the role of creativity in scientific discovery",
-    "source": "Often attributed to a 1929 interview in The Saturday Evening Post",
-    "tags": ["imagination", "science", "creativity", "knowledge"],
-    "language": "English"
+    "context": "From an interview discussing the role of creativity in scientific discovery, as Einstein reflected on his own theoretical breakthroughs that revolutionized physics",
+    "source": "Interview in The Saturday Evening Post, 1929",
+    "tags": ["imagination", "science", "creativity", "knowledge", "innovation", "theory"],
+    "language": "English",
+    "interpretation": "Einstein argued that imagination drives scientific progress beyond existing knowledge. While knowledge is limited to what we currently know, imagination explores possibilities and creates new paradigms. This reflects his own method of 'thought experiments'.",
+    "historical_significance": "Captured the shift in 20th-century science from purely empirical observation to theoretical innovation. Einstein's own imagination produced relativity theory, which couldn't have emerged from incremental knowledge alone. Influenced educational philosophy emphasizing creativity.",
+    "themes": ["creativity vs knowledge", "scientific method", "theoretical physics", "innovation psychology", "education philosophy"],
+    "key_phrases": ["imagination is more important"],
+    "modern_relevance": "Cited in education reform, innovation strategies, and discussions about AI vs human creativity. Especially relevant in fields requiring breakthrough thinking."
   },
   {
     "id": 7,
@@ -71,10 +101,15 @@
     "author": "Albert Einstein",
     "era": "20th Century",
     "topic": "Resilience, Problem-Solving",
-    "context": "Attributed to Einstein in discussions about facing scientific and personal challenges",
+    "context": "Attributed to Einstein reflecting on how scientific and personal challenges can lead to breakthroughs, consistent with his experiences during both World Wars and scientific controversies",
     "source": "Attributed saying, exact source debated",
-    "tags": ["difficulty", "opportunity", "resilience", "problems"],
-    "language": "English"
+    "tags": ["difficulty", "opportunity", "resilience", "problems", "optimism", "perspective"],
+    "language": "English",
+    "interpretation": "Einstein suggested that challenges contain hidden possibilities for growth and innovation. Rather than seeing difficulties as purely negative, this perspective encourages finding creative solutions and new approaches within constraints.",
+    "historical_significance": "Reflects Einstein's ability to produce revolutionary physics during politically turbulent times. While not verifiably his, the quote aligns with his documented philosophy of turning obstacles into scientific insights.",
+    "themes": ["optimism", "creative problem-solving", "growth mindset", "resilience", "perspective shift"],
+    "key_phrases": ["difficulty lies opportunity"],
+    "modern_relevance": "Popular in business, psychology, and self-help for reframing challenges. Used in discussions about innovation during crises."
   },
   {
     "id": 8,
@@ -82,10 +117,15 @@
     "author": "Abraham Lincoln",
     "era": "1863",
     "topic": "Democracy, Governance",
-    "context": "From the Gettysburg Address during the American Civil War",
+    "context": "Closing lines of the Gettysburg Address, delivered at the dedication of a cemetery for Union soldiers four months after the Battle of Gettysburg, the Civil War's turning point",
     "source": "Gettysburg Address, November 19, 1863",
-    "tags": ["democracy", "freedom", "civil war", "politics"],
-    "language": "English"
+    "tags": ["democracy", "freedom", "civil war", "politics", "government", "gettysburg", "union"],
+    "language": "English",
+    "interpretation": "Lincoln defined democracy with poetic precision: created by citizens ('of'), operated through their participation ('by'), and serving their interests ('for'). The triple formulation emphasizes democracy's complete dependence on popular sovereignty.",
+    "historical_significance": "Redefined the Civil War's purpose from preserving the Union to realizing democratic ideals. At 272 words, it became the most famous American speech about democracy. Influenced democratic movements worldwide and is memorized by schoolchildren.",
+    "themes": ["democratic theory", "popular sovereignty", "civil war meaning", "political poetry", "national purpose"],
+    "key_phrases": ["of the people, by the people, for the people"],
+    "modern_relevance": "Remains the standard definition of democracy, cited in debates about voting rights, representation, and democratic erosion globally."
   },
   {
     "id": 9,
@@ -93,10 +133,15 @@
     "author": "Abraham Lincoln",
     "era": "1859",
     "topic": "Freedom, Justice",
-    "context": "From a letter arguing against the expansion of slavery",
+    "context": "From a letter written before his presidency, arguing against slavery's expansion as morally inconsistent with American principles",
     "source": "Letter to H.L. Pierce and others, April 6, 1859",
-    "tags": ["freedom", "justice", "slavery", "rights"],
-    "language": "English"
+    "tags": ["freedom", "justice", "slavery", "rights", "consistency", "ethics"],
+    "language": "English",
+    "interpretation": "Lincoln argued that freedom cannot be selectively applied—those who withhold it from others forfeit moral claim to it themselves. This framed slavery not just as wrong for slaves, but as corrupting for slaveholders and the nation.",
+    "historical_significance": "Advanced the moral argument against slavery that would underpin the Emancipation Proclamation. Demonstrated Lincoln's evolving antislavery position before his presidency. Influenced later civil rights arguments about justice's indivisibility.",
+    "themes": ["moral consistency", "universal rights", "antislavery argument", "ethical reciprocity", "freedom's conditions"],
+    "key_phrases": ["deny freedom to others"],
+    "modern_relevance": "Cited in human rights advocacy, particularly regarding situations where oppressors claim rights they deny others."
   },
   {
     "id": 10,
@@ -104,10 +149,15 @@
     "author": "Winston Churchill",
     "era": "20th Century",
     "topic": "Perseverance, Leadership",
-    "context": "Widely attributed to Churchill, capturing his wartime leadership philosophy",
-    "source": "Attributed saying, exact source debated",
-    "tags": ["success", "failure", "courage", "leadership"],
-    "language": "English"
+    "context": "Widely attributed to Churchill during World War II, capturing his philosophy of relentless persistence despite setbacks, though exact provenance is uncertain",
+    "source": "Attributed saying, consistent with Churchill's documented attitudes",
+    "tags": ["success", "failure", "courage", "leadership", "persistence", "wwii"],
+    "language": "English",
+    "interpretation": "Churchill warned against both complacency in success and despair in failure. The true measure is ongoing effort—the 'courage to continue' through cycles of victory and defeat. This reflected his leadership during Britain's darkest WWII moments.",
+    "historical_significance": "Embodied the 'never surrender' spirit that sustained Britain during the Blitz and early war defeats. While attribution is uncertain, it perfectly captures Churchill's documented resilience and rhetorical style.",
+    "themes": ["resilience", "process over outcome", "wartime leadership", "psychological endurance", "long-term perspective"],
+    "key_phrases": ["courage to continue"],
+    "modern_relevance": "Popular in sports, business, and personal development for maintaining effort despite outcomes."
   },
   {
     "id": 11,
@@ -115,10 +165,15 @@
     "author": "Winston Churchill",
     "era": "1941",
     "topic": "Perseverance, War",
-    "context": "Paraphrase of his speech encouraging British resilience during World War II",
+    "context": "Paraphrase of his speech to Harrow School encouraging British resilience during World War II's difficult middle period",
     "source": "Speech at Harrow School, October 29, 1941",
-    "tags": ["perseverance", "war", "resilience", "motivation"],
-    "language": "English"
+    "tags": ["perseverance", "war", "resilience", "motivation", "britain", "wwii"],
+    "language": "English",
+    "interpretation": "Churchill's triple 'never' creates rhetorical hammerblows emphasizing absolute persistence. Delivered to schoolboys, it simplified his complex wartime leadership into an unforgettable imperative suitable for national morale.",
+    "historical_significance": "Became shorthand for British WWII determination. The Harrow speech, with its simple, repeatable message, was widely disseminated for propaganda and morale purposes during the war's most challenging phase.",
+    "themes": ["absolute persistence", "wartime morale", "rhetorical simplicity", "national character", "youth inspiration"],
+    "key_phrases": ["never give up"],
+    "modern_relevance": "The ultimate perseverance quote, used in everything from sports to startup culture to personal challenges."
   },
   {
     "id": 12,
@@ -126,10 +181,15 @@
     "author": "Aristotle",
     "era": "4th Century BCE",
     "topic": "Ethics, Self-Improvement",
-    "context": "Paraphrase inspired by Aristotle's ideas on virtue and habit in his ethical works",
+    "context": "Paraphrase inspired by Aristotle's 'Nicomachean Ethics' discussing how virtue develops through habitual practice rather than occasional acts",
     "source": "Paraphrased from 'Nicomachean Ethics'",
-    "tags": ["excellence", "habit", "virtue", "character"],
-    "language": "English"
+    "tags": ["excellence", "habit", "virtue", "character", "ethics", "philosophy"],
+    "language": "English",
+    "interpretation": "Aristotle argued that character forms through repeated actions, not intentions. Excellence (aretē) emerges from daily habits aligning with virtue. This challenges modern 'instant success' notions, emphasizing gradual self-cultivation.",
+    "historical_significance": "Foundation of virtue ethics, one of Western philosophy's three major ethical frameworks. Influenced educational theories from ancient Greece through Renaissance humanism to modern character education.",
+    "themes": ["virtue ethics", "habit formation", "character development", "practical wisdom", "philosophical psychology"],
+    "key_phrases": ["excellence is a habit"],
+    "modern_relevance": "Central to habit psychology, performance coaching, and character education. Cited in discussions about skill mastery and personal development."
   },
   {
     "id": 13,
@@ -137,10 +197,15 @@
     "author": "Confucius",
     "era": "5th Century BCE",
     "topic": "Perseverance, Personal Growth",
-    "context": "Attributed to Confucius in later compilations of his teachings",
+    "context": "Attributed to Confucius in later compilations emphasizing gradual self-cultivation through lifelong learning and ethical practice",
     "source": "Attributed saying from the Analects tradition",
-    "tags": ["perseverance", "progress", "growth", "discipline"],
-    "language": "English"
+    "tags": ["perseverance", "progress", "growth", "discipline", "learning", "patience"],
+    "language": "English",
+    "interpretation": "Confucius valued consistent effort over speed. In his educational philosophy, continuous forward motion—however slow—eventually achieves cultivation (ren). Stopping represents failure; slow progress represents success.",
+    "historical_significance": "Embodies the Confucian emphasis on gradual self-improvement through persistent study and practice. Influenced East Asian educational values emphasizing diligence over innate talent.",
+    "themes": ["gradual progress", "lifelong learning", "process orientation", "educational philosophy", "eastern wisdom"],
+    "key_phrases": ["as long as you do not stop"],
+    "modern_relevance": "Popular in education, skill development, and personal growth for encouraging persistence despite slow progress."
   },
   {
     "id": 14,
@@ -148,10 +213,15 @@
     "author": "Marie Curie",
     "era": "1903",
     "topic": "Science, Curiosity",
-    "context": "Reflecting on scientific discovery and the unknown in an age of rapid advances",
+    "context": "Attributed to Curie reflecting on scientific exploration of radioactivity and the unknown, during a period when women faced significant barriers in science",
     "source": "Attributed to Curie in biographies and collected sayings",
-    "tags": ["science", "fear", "understanding", "curiosity"],
-    "language": "English"
+    "tags": ["science", "fear", "understanding", "curiosity", "radioactivity", "women in science"],
+    "language": "English",
+    "interpretation": "Curie asserted that understanding dispels fear—a core scientific ethos. Having discovered radium's mysterious glow, she advocated confronting the unknown through investigation rather than superstition or avoidance.",
+    "historical_significance": "Encapsulated the scientific spirit of the early 20th century while challenging gender norms. As first woman Nobel laureate and only person with Nobels in two sciences, Curie embodied this principle through groundbreaking, dangerous research.",
+    "themes": ["scientific ethos", "courage through knowledge", "gender barriers", "exploration ethics", "rationalism"],
+    "key_phrases": ["to be understood"],
+    "modern_relevance": "Cited in science communication, public health education, and discussions about managing uncertainty through knowledge."
   },
   {
     "id": 15,
@@ -159,10 +229,15 @@
     "author": "Leonardo da Vinci",
     "era": "15th Century",
     "topic": "Learning, Creativity",
-    "context": "From his notebooks reflecting on curiosity and the pursuit of knowledge",
+    "context": "From his notebooks reflecting on relentless curiosity and interdisciplinary learning during the Renaissance",
     "source": "Leonardo's notebooks (attributed)",
-    "tags": ["learning", "creativity", "knowledge", "curiosity"],
-    "language": "English"
+    "tags": ["learning", "creativity", "knowledge", "curiosity", "renaissance", "interdisciplinary"],
+    "language": "English",
+    "interpretation": "Da Vinci, perhaps history's ultimate polymath, argued that mental capacity expands with use. Unlike physical exhaustion, intellectual engagement energizes. This reflects his own practice of moving between art, science, engineering, and anatomy.",
+    "historical_significance": "Epitomizes Renaissance humanist ideal of limitless learning. Da Vinci's own career—spanning masterpiece paintings, anatomical drawings, and engineering designs—demonstrated this principle through unprecedented interdisciplinary integration.",
+    "themes": ["lifelong learning", "polymathic ideal", "mental energy", "curiosity-driven work", "renaissance humanism"],
+    "key_phrases": ["never exhausts the mind"],
+    "modern_relevance": "Cited in discussions about interdisciplinary education, continuous learning in careers, and combating age-related cognitive decline."
   },
   {
     "id": 16,
@@ -170,10 +245,15 @@
     "author": "Isaac Newton",
     "era": "1675",
     "topic": "Science, Collaboration",
-    "context": "From a letter acknowledging the work of earlier scientists",
+    "context": "From a letter to Robert Hooke acknowledging predecessors' contributions during controversies about scientific priority in the Scientific Revolution",
     "source": "Letter to Robert Hooke, February 5, 1675",
-    "tags": ["science", "humility", "collaboration", "discovery"],
-    "language": "English"
+    "tags": ["science", "humility", "collaboration", "discovery", "scientific revolution", "predecessors"],
+    "language": "English",
+    "interpretation": "Newton acknowledged that his breakthroughs built upon earlier scientists' work. The metaphor suggests scientific progress is cumulative and collaborative, even amidst personal rivalries. It balances pride in achievement with intellectual humility.",
+    "historical_significance": "Became the defining statement of science's cumulative nature. Ironically, Newton often fought bitterly with contemporaries, making this humility especially notable. The phrase originated with 12th-century philosopher Bernard of Chartres.",
+    "themes": ["scientific cumulation", "intellectual debt", "collaboration vs competition", "historical consciousness", "modesty in achievement"],
+    "key_phrases": ["standing on shoulders of giants"],
+    "modern_relevance": "Standard reference for acknowledging prior work in academia, cited in Nobel speeches and scientific publications."
   },
   {
     "id": 17,
@@ -181,10 +261,15 @@
     "author": "Thomas Edison",
     "era": "1902",
     "topic": "Work, Innovation",
-    "context": "Comment on the relationship between hard work and invention",
+    "context": "Interview comment about the relationship between creativity and hard work during America's Industrial Revolution and Edison's prolific inventing career",
     "source": "Interview in Harper's Monthly Magazine, 1902",
-    "tags": ["work", "innovation", "genius", "effort"],
-    "language": "English"
+    "tags": ["work", "innovation", "genius", "effort", "invention", "industrial revolution"],
+    "language": "English",
+    "interpretation": "Edison demystified genius, emphasizing grueling work over innate talent. His 1%/99% ratio highlighted systematic experimentation (his 'perspiration') over sudden insights. This reflected his methodical approach to inventing the light bulb through thousands of failed filaments.",
+    "historical_significance": "Shaped American understanding of innovation as hard work rather than magical insight. Edison's own career—holding 1,093 patents—embodied this principle. Influenced both industrial research methods and popular attitudes toward achievement.",
+    "themes": ["effort over talent", "systematic innovation", "demystifying genius", "industrial research", "american work ethic"],
+    "key_phrases": ["inspiration and perspiration"],
+    "modern_relevance": "Ubiquitous in discussions about creativity, entrepreneurship, and skill development. Often cited to counter 'overnight success' myths."
   },
   {
     "id": 18,
@@ -192,10 +277,15 @@
     "author": "Eleanor Roosevelt",
     "era": "1940s",
     "topic": "Self-Worth, Confidence",
-    "context": "From her reflections on personal dignity and human rights",
+    "context": "From her writings and speeches as First Lady and human rights advocate, challenging discrimination against women and marginalized groups",
     "source": "Often attributed to her 1940 book 'This Is My Story'",
-    "tags": ["confidence", "self-worth", "rights", "dignity"],
-    "language": "English"
+    "tags": ["confidence", "self-worth", "rights", "dignity", "women's empowerment", "psychology"],
+    "language": "English",
+    "interpretation": "Roosevelt asserted that self-worth comes from within, not others' opinions. The word 'consent' suggests active participation in one's own marginalization. This empowered individuals, particularly women, to reject externally imposed limitations.",
+    "historical_significance": "Became a foundational text for women's empowerment and self-help movements. As a controversial, activist First Lady, Roosevelt modeled this principle by pursuing humanitarian work despite criticism.",
+    "themes": ["psychological empowerment", "self-determination", "women's agency", "dignity preservation", "social confidence"],
+    "key_phrases": ["without your consent"],
+    "modern_relevance": "Widely used in anti-bullying campaigns, self-esteem education, and discussions about mental health and empowerment."
   },
   {
     "id": 19,
@@ -203,10 +293,15 @@
     "author": "Mahatma Gandhi",
     "era": "20th Century",
     "topic": "Nonviolence, Social Change",
-    "context": "Reflecting his philosophy of nonviolent resistance against injustice",
+    "context": "Attributed to Gandhi summarizing his philosophy of satyagraha (nonviolent resistance) that achieved Indian independence through mass civil disobedience",
     "source": "Attributed saying from speeches and writings",
-    "tags": ["nonviolence", "change", "justice", "activism"],
-    "language": "English"
+    "tags": ["nonviolence", "change", "justice", "activism", "gentleness", "revolution"],
+    "language": "English",
+    "interpretation": "Gandhi paired 'gentle' with 'shake the world' to redefine power. Nonviolence, properly practiced, creates transformative force through moral persuasion rather than violence. This challenged conventional views of revolution as necessarily violent.",
+    "historical_significance": "Captured the essence of Gandhian nonviolence that influenced global movements. India's independence achieved through satyagraha demonstrated that 'gentle' methods could indeed 'shake' colonial empires.",
+    "themes": ["nonviolent power", "moral force", "revolutionary gentleness", "social change ethics", "persuasive activism"],
+    "key_phrases": ["gentle way", "shake the world"],
+    "modern_relevance": "Cited by nonviolent movements worldwide, from Civil Rights to environmental activism. Represents alternative models of social change."
   },
   {
     "id": 20,
@@ -214,9 +309,14 @@
     "author": "Nelson Mandela",
     "era": "1993",
     "topic": "Hope, Perseverance",
-    "context": "Widely quoted reflection on the struggle against apartheid",
+    "context": "Widely quoted reflection on the struggle against apartheid, spoken as South Africa transitioned to democracy after decades where change seemed unattainable",
     "source": "Attributed saying from speeches in the early 1990s",
-    "tags": ["hope", "perseverance", "struggle", "change"],
-    "language": "English"
+    "tags": ["hope", "perseverance", "struggle", "change", "apartheid", "achievement"],
+    "language": "English",
+    "interpretation": "Mandela observed that transformative achievements appear unimaginable until accomplished. This recognizes both the psychological barrier of 'impossibility' and the power of persistent effort to redefine what's possible.",
+    "historical_significance": "Encapsulated the anti-apartheid struggle's journey from seemingly hopeless resistance to triumphant democracy. Mandela's own path—from life prisoner to president—embodied this transformation.",
+    "themes": ["redefining possible", "hope in adversity", "transformative change", "political imagination", "post-struggle reflection"],
+    "key_phrases": ["impossible until it is done"],
+    "modern_relevance": "Cited in social movements, scientific breakthroughs, and personal goals that initially seemed unachievable."
   }
 ]

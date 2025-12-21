@@ -1,0 +1,249 @@
+{
+  "test_results": [
+    {
+      "question": "What did Roosevelt say about fear?",
+      "retrieved_ids": [
+        1
+      ],
+      "expected_ids": [
+        1
+      ],
+      "answer": "Fear is something that we all have, but we must learn to control it. Roosevelt's quote was referring to the fear that people had during the Great Depression, when many people lost their jobs and homes. He hoped that people could learn to manage their fears and work together to face challenges and overcome adversity.",
+      "expected_answer": "Roosevelt said 'The only thing we have to fear is fear itself' during his first inaugural address in 1933.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relevance": 0.8653417229652405,
+        "hallucination": 0.2640011116862297,
+        "response_time": 18.029742002487183
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What did Martin Luther King Jr. dream about?",
+      "retrieved_ids": [
+        2
+      ],
+      "expected_ids": [
+        2
+      ],
+      "answer": "Martin Luther King Jr. Dreamed of a nation where all of its citizens, regardless of race or color, had the opportunity to live up to their full potential and achieve their fullest potential.",
+      "expected_answer": "He dreamed that his children would be judged by their character, not their skin color.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relevance": 0.7314849495887756,
+        "hallucination": 0.21839418144602524,
+        "response_time": 6.4843950271606445
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "Who said 'Be the change you wish to see in the world'?",
+      "retrieved_ids": [
+        5
+      ],
+      "expected_ids": [
+        5
+      ],
+      "answer": "\"Be the change that you wish to see in the world\" is a quote attributed to Mahatma Gandhi. It is often interpreted to mean that one should work towards creating a positive change in society. However, the exact source of the quote is not entirely clear.\n\nReference:\n1. Gandhi, Mahatma. \"Satyagraha.\" The Collected Works of Mahatma Gandhi, Vol. 6. p. 93\n2. Gandhi, Mahatma. \"Be the Change You Wish to See in the World.\" In Collected Works of Mahatma Gandhi, Vol. 6, p. 93-94.\n3. Gandhi, Mahatma. \"The Story of My Experiments with Truth.\" In Collected Works of Mahatma Gandhi, Vol. 8, p. 194-195.",
+      "expected_answer": "Mahatma Gandhi",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relevance": 0.7362792640924454,
+        "hallucination": 0.4892631739377975,
+        "response_time": 26.11289954185486
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.5,
+        "historical_context_score": 0.3333333333333333,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What quotes are there about perseverance?",
+      "retrieved_ids": [
+        10,
+        11,
+        4
+      ],
+      "expected_ids": [
+        4,
+        10,
+        11,
+        13,
+        20
+      ],
+      "answer": "1. Quote: Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill\nAuthor: Winston Churchill\nContext: Widely attributed to Churchill during World War II, capturing his philosophy of relentless persistence despite setbacks, though exact provenance is uncertain\nSource: Attributed saying, consistent with Churchill's documented attitudes\n\n2. Quote: Never, never, never give up. - Winston Churchill\nAuthor: Winston Churchill\nContext: Paraphrase of his speech to Harrow School encouraging British resilience during World War II's difficult middle period\nSource: Speech at Harrow School, October 29, 1941\n\n3. Quote: The greatest glory in living lies not in never falling, but in rising every time we fall. - Nelson Mandela",
+      "expected_answer": "Should include quotes about perseverance and resilience.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "relevance": 0.7872324585914612,
+        "hallucination": 0.35952689945697786,
+        "response_time": 27.797775506973267
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": true
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 1.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.5
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What did Einstein say about imagination?",
+      "retrieved_ids": [
+        6
+      ],
+      "expected_ids": [
+        6
+      ],
+      "answer": "Einstein believed that imagination was more important than knowledge, as it allowed scientists to create new and unconventional theories that could revolutionize the field of physics.",
+      "expected_answer": "Einstein said 'Imagination is more important than knowledge.'",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "relevance": 0.9222739934921265,
+        "hallucination": 0.20181973044361387,
+        "response_time": 5.8769097328186035
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    },
+    {
+      "question": "What are some quotes about leadership?",
+      "retrieved_ids": [
+        10,
+        5,
+        18
+      ],
+      "expected_ids": [
+        1,
+        8,
+        10
+      ],
+      "answer": "1. Lead by Example: \"A leader is a dreamer of dreams. The dreamer starts with the end in mind, and ends where the end can be achieved. The dreamer sees the vision, and he fights for it with a power that comes from the fact that he sees it at once.\" - Theodore Roosevelt\n\n2. Follow the Difficult Path: \"The road to success is paved with difficulty.\" - Winston Churchill\n\n3. Believe in a Better Future: \"Believe you can and you're halfway there.\" - Theodore Roosevelt\n\n4. Lead from the Heart: \"The best way to predict your future is to create it.\" - Steve Jobs\n\n5. Be a Man Among Men: \"A man is known by the company he keeps.\" - George Bernard Shaw\n\n6. Be the Change You Wish to See: \"The",
+      "expected_answer": "Should include quotes about leadership and governance.",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "relevance": 0.726907879114151,
+        "hallucination": 0.6005353101662226,
+        "response_time": 27.96356225013733
+      },
+      "pipeline_info": {
+        "analysis_mode": "standard",
+        "answer_type": "standard_answer",
+        "has_interpretation_data": false,
+        "has_historical_context_data": false,
+        "includes_analysis": false
+      },
+      "analysis_metrics": {
+        "interpretation_score": 0.0,
+        "historical_context_score": 0.0,
+        "explanation_depth": 0.0,
+        "thematic_analysis": 0.0
+      },
+      "interpretation_evaluation": {
+        "is_interpretation_question": false,
+        "interpretation_quality": 0.0,
+        "has_interpretation": false
+      }
+    }
+  ],
+  "average_metrics": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8222222222222221,
+    "relevance": 0.7949200446407,
+    "hallucination": 0.3555900678561445,
+    "response_time": 18.710880676905315,
+    "interpretation_score": 0.08333333333333333,
+    "historical_context_score": 0.38888888888888884,
+    "explanation_depth": 0.0,
+    "thematic_analysis": 0.08333333333333333,
+    "interpretation_quality": 0.0
+  },
+  "config": {
+    "top_k": 3,
+    "num_queries": 6,
+    "successful_queries": 6,
+    "include_analysis_metrics": true,
+    "analysis_mode": null
+  }
+}
