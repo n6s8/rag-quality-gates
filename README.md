@@ -1,9 +1,9 @@
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 
-      🛰️  REPOSITORY ORBIT: github.com/n6s8/Full-RAG-Stack
+      🛰️  REPOSITORY ORBIT: github.com/n6s8/rag-quality-gates
       📡 SIGNAL STRENGTH: ██████████ 100%
 
-      🎬 TRANSMISSION FEED: youtu.be/Eawfe7b_0OE
+      🎬 TRANSMISSION FEED: gyoutu.be/HgSonhJaUoU
       📶 BANDWIDTH: ██████████ 100%
 
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
