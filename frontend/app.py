@@ -218,7 +218,9 @@ def display_main_content(top_k, analysis_mode):
             with st.container():
                 st.markdown('<div class="quote-card">', unsafe_allow_html=True)
 
-                st.markdown(f'**"{quote["quote"]}"**')
+                quote_id_label = f"Q{i+1}"
+                st.markdown(f"**{quote_id_label}** — {quote['author']}")
+                st.markdown(f'“{quote["quote"]}”')
 
                 col_a, col_b, col_c = st.columns(3)
                 with col_a:

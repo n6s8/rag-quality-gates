@@ -122,17 +122,22 @@ class LLMClient:
         return f"Mock response to: {prompt[:50]}... (Install transformers for local model or set API key for DIAL)"
 
     def format_rag_prompt(self, question: str, context_docs: List[Dict[str, Any]]) -> str:
-        context_text = "\n\n".join([
-            f"Quote: {doc.get('quote', '')}\n"
-            f"Author: {doc.get('author', 'Unknown')}\n"
-            f"Context: {doc.get('context', '')}\n"
-            f"Source: {doc.get('source', '')}"
-            for doc in context_docs
-        ])
+        context_blocks = []
+        for i, doc in enumerate(context_docs):
+            label = f"Q{i+1}"
+            block = (
+                f"{label} - Quote: {doc.get('quote', '')}\n"
+                f"Author: {doc.get('author', 'Unknown')}\n"
+                f"Context: {doc.get('context', '')}\n"
+                f"Source: {doc.get('source', '')}"
+            )
+            context_blocks.append(block)
+
+        context_text = "\n\n".join(context_blocks)
 
         prompt = f"""You are a historical quotes expert. Answer the user's question based ONLY on the provided context.
 
-Context information:
+Context information (each quote has an ID like Q1, Q2, etc):
 {context_text}
 
 User Question: {question}
@@ -140,8 +145,9 @@ User Question: {question}
 Instructions:
 1. Answer based ONLY on the provided context
 2. If the answer is not in the context, say "I cannot find that information in my knowledge base"
-3. Be concise and accurate
-4. Cite sources when possible
+3. When you reference a quote, cite it using its ID in square brackets, e.g. [Q1], [Q2]
+4. Be concise and accurate
+5. Do NOT invent new quotes or sources that are not in the context
 
 Answer:"""
 
