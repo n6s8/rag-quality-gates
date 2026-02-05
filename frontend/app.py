@@ -95,7 +95,35 @@ def display_sidebar():
         st.markdown("---")
 
         st.markdown("### 🔍 Search Settings")
-        top_k = st.slider("Number of results", 1, 10, 3)
+
+        answer_style = st.selectbox(
+            "Answer style",
+            [
+                "Standard — balanced answer",
+                "Quick — short direct answer",
+                "In-depth — detailed analysis",
+                "Compare — contrast multiple quotes",
+            ],
+            index=0,
+            help="Choose how detailed you want the AI answer to be.",
+        )
+
+        style_to_mode = {
+            "Standard — balanced answer": "standard",
+            "Quick — short direct answer": "basic",
+            "In-depth — detailed analysis": "comprehensive",
+            "Compare — contrast multiple quotes": "comparative",
+        }
+
+        analysis_mode = style_to_mode[answer_style]
+
+        top_k = st.slider(
+            "Maximum number of quotes",
+            1,
+            10,
+            3,
+            help="Upper bound for how many supporting quotes can be shown.",
+        )
 
         st.markdown("---")
 
@@ -118,10 +146,10 @@ def display_sidebar():
         """
         )
 
-        return top_k
+        return top_k, analysis_mode
 
 
-def display_main_content(top_k):
+def display_main_content(top_k, analysis_mode):
     st.markdown(
         '<h1 class="main-header">📜 Historical Quotes Explorer</h1>',
         unsafe_allow_html=True,
@@ -147,12 +175,29 @@ def display_main_content(top_k):
 
     if search_button and query:
         with st.spinner("Searching through historical quotes..."):
-            results = rag_pipeline.process_query(query, top_k=top_k)
+            results = rag_pipeline.process_query(
+                query,
+                top_k=top_k,
+                analysis_mode=analysis_mode,
+            )
             st.session_state.current_results = results
             st.session_state.search_history.append(query)
 
     if st.session_state.current_results:
         results = st.session_state.current_results
+
+        meta_cols = st.columns(3)
+        with meta_cols[0]:
+            st.markdown(
+                f"**Analysis mode:** `{results.get('analysis_mode', analysis_mode)}`"
+            )
+        with meta_cols[1]:
+            st.markdown(
+                f"**Answer type:** `{results.get('answer_type', 'standard_answer')}`"
+            )
+        with meta_cols[2]:
+            used_top_k = results.get("used_top_k", top_k)
+            st.markdown(f"**Quotes used:** `{used_top_k}`")
 
         st.markdown("### 🤖 AI Answer")
         with st.container():
@@ -161,9 +206,13 @@ def display_main_content(top_k):
                 unsafe_allow_html=True,
             )
 
+        if not results.get("search_results"):
+            st.warning("No matching quotes were found for this query.")
+            return
+
         st.markdown("---")
 
-        st.markdown(f"### 📚 Found {results['retrieved_count']} Relevant Quotes")
+        st.markdown(f"### 📚 Found {results['retrieved_count']} relevant quotes")
 
         for i, quote in enumerate(results["search_results"]):
             with st.container():
@@ -182,6 +231,10 @@ def display_main_content(top_k):
                 if quote.get("context"):
                     st.markdown(f"*Context:* {quote['context']}")
 
+                if quote.get("tags"):
+                    tags_str = ", ".join(str(t) for t in (quote.get("tags") or []))
+                    st.markdown(f"*Tags:* {tags_str}")
+
                 if quote.get("source"):
                     st.markdown(
                         f'<p class="source-text">Source: {quote["source"]}</p>',
@@ -190,9 +243,34 @@ def display_main_content(top_k):
 
                 st.markdown(f"*Relevance score: {quote['score']:.3f}*")
 
+                has_extra_analysis = any(
+                    quote.get(k)
+                    for k in [
+                        "interpretation",
+                        "historical_significance",
+                        "themes",
+                        "modern_relevance",
+                    ]
+                )
+
+                if has_extra_analysis:
+                    with st.expander("View deeper analysis for this quote"):
+                        if quote.get("interpretation"):
+                            st.markdown("**Interpretation**")
+                            st.write(quote["interpretation"])
+                        if quote.get("historical_significance"):
+                            st.markdown("**Historical significance**")
+                            st.write(quote["historical_significance"])
+                        if quote.get("themes"):
+                            st.markdown("**Themes**")
+                            st.write(quote["themes"])
+                        if quote.get("modern_relevance"):
+                            st.markdown("**Modern relevance**")
+                            st.write(quote["modern_relevance"])
+
                 st.markdown("</div>", unsafe_allow_html=True)
 
-        with st.expander("📊 View Raw Response Data"):
+        with st.expander("📊 View raw response data (debug)"):
             st.json(results)
 
     if not st.session_state.current_results:
@@ -216,7 +294,13 @@ def display_main_content(top_k):
                 if st.button(example, key=f"example_{i}", use_container_width=True):
                     st.session_state.query_input = example
                     st.session_state.current_results = None
-                    st.experimental_rerun()
+                    # Streamlit 1.40+ uses st.rerun instead of experimental_rerun
+                    try:
+                        st.rerun()
+                    except AttributeError:
+                        # Fallback for very old Streamlit versions
+                        if hasattr(st, "experimental_rerun"):
+                            st.experimental_rerun()
 
 
 def display_footer():
@@ -251,8 +335,8 @@ def display_footer():
 
 def main():
     initialize_session_state()
-    top_k = display_sidebar()
-    display_main_content(top_k)
+    top_k, analysis_mode = display_sidebar()
+    display_main_content(top_k, analysis_mode)
     display_footer()
 
 
